@@ -1,4 +1,4 @@
-= [[INDEX]] = 
+= INDEX = 
 
 ----------------------------------------
 
@@ -6,17 +6,17 @@
 
   === JS ===
   * [[var_const_let]]
-  * [[Template Literal]]
-  * [[Arrow Function]]
+  * [[template_literal_in_js]]
+  * [[arrow_function_in_js]]
   * [[Object]]
-  * [[functional programming]]
+  * [[functional_programming]]
 
   === C ===
-  * [[Variable Constant]]
-  * [[floating point]]
+  * [[variable_constant_in_c]]
+  * [[float_point]]
   * [[fixed_size_datatype]]
-  * [[gdb debugging]]
-  * [[sizeof operator]]
+  * [[debug_with_gdb]]
+  * [[sizeof_operator]]
   
   === JAVA ===
 
@@ -40,14 +40,14 @@
 
   === COMPUTER COMMON SENSE ===
   * [[BIOS]]
-  * [[why c]]
-  * [[computer structure]]
-  * [[memory structure]]
-  * [[cpu structure]]
-  * [[sw develop 7steps]]
-  * [[why bug]]
+  * [[c_drive]]
+  * [[computer_structure]]
+  * [[memory_structure]]
+  * [[cpu_structure]]
+  * [[develop_7steps]]
+  * [[software_bug]]
   * [[idea definition]]
-  * [[amdahl law]]
+  * [[amdahl's_law]]
   * [[Reactive Programming]]
   * [[Blocking_Non-Blocking]]
   * [[Synchronous_Asynchronous]]

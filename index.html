@@ -2,4 +2,18 @@
 layout: default
 title: Home
 ---
-<h1>{{ "Hello World!" | downcase }}</h1>
+
+<h1>최근 수정된 문서</h1>
+
+{% assign documents = site.wiki | sort: 'updated' | reverse %}
+<ul>
+    {% for doc in documents limit: 10 %}
+    <li>
+        <h2>{{ doc.updated | date: "%Y.%m.%d" }} - <a href="{{ doc.url }}">{{ doc.title }}</a></h2>
+    </li>
+    {% endfor %}
+</ul>
+
+<h4>
+	<a href="/recent/">전체 문서 리스트 ({{ site.wiki | size | minus: 1 }} 항목)</a>
+</h4>
