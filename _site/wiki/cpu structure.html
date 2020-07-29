@@ -1,0 +1,148 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>CPU의 기본 구조</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+    <body>
+        <nav>
+    
+    <a href="/" >Home</a>
+    
+    <a href="/about.html" >About</a>
+    
+    <a href="/blog.html" >Blog</a>
+    
+</nav>
+
+        <h1>CPU의 기본 구조</h1>
+
+<h1 id="cpu의-기본-구조">CPU의 기본 구조</h1>
+
+<p>컴퓨터는 모든정보를 숫자(이진수)로 변경해 처리한다. -&gt; (기계어: Machine Code)
+기계어를 사람이 이해 할 수 있는 언어(어셈블리: Assembly)로 변경하는 것을 니모닉(MNemonic)이라고 한다.</p>
+
+<h2 id="프로그램이-실행되는-과정">프로그램이 실행되는 과정</h2>
+
+<ol>
+  <li>프로그램은 기본적으로 보조기억장치에 저장되어 있음.</li>
+  <li>보조기억장치의 프로그램을 주기억장치에 적재</li>
+  <li>프로그램이 필요로 하는 연산을 CPU가 처리</li>
+</ol>
+
+<h2 id="cpu의-구성-요소들">CPU의 구성 요소들</h2>
+
+<p>제어장치, 산술 논리 장치(ALU), 레지스터</p>
+
+<ol>
+  <li>제어장치: skip…</li>
+  <li>산술 논리 장치: 실제 연산 작업을 수행하는 장치</li>
+  <li>레지스터: 연산이 일어나기 전에 데이터를 임시로 보관하는 장치</li>
+</ol>
+
+<table>
+  <thead>
+    <tr>
+      <th>레지스터의 종류</th>
+      <th>기능</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>주소 레지스터</td>
+      <td>읽거나 쓸 메모리의 주소 저장</td>
+    </tr>
+    <tr>
+      <td>프로그램 카운터</td>
+      <td>다음 명령어의 메모리 주소 저장</td>
+    </tr>
+    <tr>
+      <td>데이터 레지스터</td>
+      <td>메모리에서 읽어온 데이터 저장</td>
+    </tr>
+    <tr>
+      <td>명령어 레지스터</td>
+      <td>메모리에서 읽어온 명령어 저장</td>
+    </tr>
+    <tr>
+      <td>어큐뮬레이터</td>
+      <td>연산에 사용되는 데이터 저장</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="cpu가-동작하는-간단한-예제">CPU가 동작하는 간단한 예제</h2>
+
+<p>아래와 같은 프로그램이 동작할 때,</p>
+
+<table>
+  <thead>
+    <tr>
+      <th>주소</th>
+      <th>메모리</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>10</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>…</td>
+      <td>…</td>
+    </tr>
+    <tr>
+      <td>100</td>
+      <td>LOAD 10</td>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>ADD 11</td>
+    </tr>
+    <tr>
+      <td>102</td>
+      <td>STORE 12</td>
+    </tr>
+  </tbody>
+</table>
+
+<ol>
+  <li>최초 프로그램 카운터(이하 PC) 는 100번지를 가르키고 있다. (PC &lt;- 100)</li>
+  <li>PC의 주소를 메모리 주소 레지스터(이하 MAR에) 전달한다. (MAR &lt;- 100)</li>
+  <li>MAR의 주소에 있는 실제 데이터를 메모리 데이터 레지스터(이하 MDR)에 적재한다. (MDR &lt;- LOAD 10)</li>
+  <li>해당 데이터(LOAD 10)가 값이 아닌 명령어기 떄문에 명령어 레지스터(이하 IR)에 전달한다. (IR &lt;- LOAD 10)</li>
+  <li>PC의 값이 1 증가한다. (PC &lt;- 101)</li>
+  <li>IR의 명령어를 제어 장치에 전달한다. (Control Unit &lt;- LOAD 10)</li>
+  <li>제어 장치는 해당 명령어를 해독(DECODE) 한다. (LOAD 10)</li>
+  <li>제어 장치는 MAR에 10을 전달 한다. (MAR &lt;- 10)</li>
+  <li>MDR에 MAR의 주소의 실제 데이터를 적재한다. (MDR &lt;- 3)</li>
+  <li>해당 데이터는 명령어가 아닌 값이기 때문에, IR이 아닌 어큐뮬레이터(이하 ACC)로 전달한다. (ACC &lt;- 3)</li>
+  <li>PC가 가르키는 101번지 주소를 MAR에 전달한다. (MAR &lt;- 101)</li>
+  <li>101번지의 데이터(ADD 11)를 MDR에 적재한다. (MDR &lt;- ADD 11)</li>
+  <li>해당 데이터가 명령어 이기 때문에 IR에 전달한다. (IR &lt;- ADD 11)</li>
+  <li>PC의 값이 1 증가 한다. (PC &lt;- 102)</li>
+  <li>IR의 값을 제어 장치로 전달하고, 제어 장치는 해당 명령어(ADD 11)를 DECODE 한다. (Control Unit &lt;- ADD 11)</li>
+  <li>ACC의 값을 ALU(산술 논리 장치)에 전달한다. (ALU &lt;- 3)</li>
+  <li>제어 장치는 MAR에 11번지의 주소를 전달한다. (MAR &lt;- 11)</li>
+  <li>MDR은 MAR의 주소의 실제 데이터를 적재한다. (MDR &lt;- 4)</li>
+  <li>MDR의 데이터를 ACC로 전달한다. (ACC &lt;- 4)</li>
+  <li>ACC의 값을 ALU에 전달되어 이전의 3과 ADD 연산이 일어난다. (ALU &lt;- 7)</li>
+  <li>ALU의 값(7)을 ACC로 전달한다. (ACC &lt;- 7)</li>
+  <li>PC의 값을 MAR로 전달한다. (MAR &lt;- 102)</li>
+  <li>MAR의 주소의 실제 데이터를 MDR에 적제 한다. (MDR &lt;- STORE 12)</li>
+  <li>MDR의 값이 값이 아닌 명령어이기 때문에 IR로 전달된다. (IR &lt;- STORE 12)</li>
+  <li>PC의 값이 증가한다. (PC &lt;- 103)</li>
+  <li>IR의 값을 제어장치에 전달하고 제어장치는 해당 명령어를 DECODE 한다. (Control Unit &lt;- STORE 102)</li>
+  <li>제어 장치는 MAR에 12번지의 주소를 전달한다. (MAR &lt;- 12)</li>
+  <li>ACC의 값(7)을 MDR에 전달한다. (MDR &lt;- 7)</li>
+  <li>MDR의 데이터를 MAR의 주소(12)에 저장한다. (12번지 &lt;- 7)</li>
+</ol>
+
+
+    </body>
+</html>

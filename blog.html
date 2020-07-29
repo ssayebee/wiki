@@ -1,0 +1,14 @@
+---
+layout: default
+title: Blog
+---
+<h1>최근 수정된 문서</h1>
+
+{% assign documents = site.wiki | sort: 'updated' | reverse %}
+<ul>
+    {% for doc in documents %}
+    <li>
+        <h2>{{ doc.updated | date: "%Y.%m.%d" }} - <a href="{{ doc.url }}">{{ doc.title }}</a></h2>
+    </li>
+    {% endfor %}
+</ul>

@@ -1,0 +1,52 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>고정 너비 자료형</title>
+        <link rel="stylesheet" href="/assets/css/styles.css">
+    </head>
+    <body>
+        <nav>
+    
+    <a href="/" >Home</a>
+    
+    <a href="/about.html" >About</a>
+    
+    <a href="/blog.html" >Blog</a>
+    
+</nav>
+
+        <h1>고정 너비 자료형</h1>
+
+<h1 id="고정-너비-자료형">고정 너비 자료형</h1>
+
+<p>c언의 자료형은 시스템 마다 상이 할 수도 있다.
+이와 같은 문제점을 해결하기 위해서 고정 너비 자료형을 지원한다.</p>
+
+<p>ex)</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="cp">#include &lt;stdio.h&gt;
+#include &lt;stdint.h&gt;
+#include &lt;inttypes.h&gt;
+</span>
+<span class="kt">int</span> <span class="nf">main</span><span class="p">()</span>
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">i</span><span class="p">;</span>
+    <span class="kt">int32_t</span> <span class="n">i32</span><span class="p">;</span>                <span class="c1">// 32 bit int</span>
+    <span class="kt">int_least8_t</span> <span class="n">i8</span><span class="p">;</span>            <span class="c1">// smallest 8 bit</span>
+    <span class="kt">int_fast8_t</span> <span class="n">f8</span><span class="p">;</span>             <span class="c1">// fastest minium</span>
+    <span class="kt">intmax_t</span> <span class="n">imax</span><span class="p">;</span>              <span class="c1">// biggest signed integers</span>
+    <span class="kt">uintmax_t</span> <span class="n">uimax</span><span class="p">;</span>            <span class="c1">// biggest signed integers</span>
+    
+    <span class="n">i32</span> <span class="o">=</span> <span class="mi">1004</span><span class="p">;</span>
+    
+    <span class="n">printf</span><span class="p">(</span><span class="s">"me32 = %d</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">i32</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"me32 = %"</span> <span class="s">"d"</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">i32</span><span class="p">);</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"me32 = %"</span> <span class="n">PRId32</span> <span class="s">"</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">i32</span><span class="p">);</span>
+    
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+
+    </body>
+</html>

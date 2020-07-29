@@ -1,0 +1,55 @@
+I"�<h1 id="sizeof-연산자">sizeof 연산자</h1>
+
+<p>자료형이 차지하는 메모리의 크기를 반환</p>
+
+<p>sizeof는 함수와 유사하게 사용될 수 있지만, 연산자이다.</p>
+
+<p>ex) 1. 기본 자료형</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> 
+<span class="p">{</span>
+    <span class="c1">// 3가지 모두 동일</span>
+    <span class="kt">int</span> <span class="n">a</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">int_size1</span> <span class="o">=</span> <span class="k">sizeof</span> <span class="n">a</span><span class="p">;</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">int_size2</span> <span class="o">=</span> <span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">);</span>
+    <span class="kt">unsigned</span> <span class="kt">int</span> <span class="n">int_size3</span> <span class="o">=</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">a</span><span class="p">);</span>
+    
+    <span class="c1">// 기본적으로 unsigned int 이지만, 시스템 따라 상이 할 수 있다.</span>
+    <span class="c1">// 이식성을 높이기 위해서 사용한다.</span>
+    <span class="kt">size_t</span> <span class="n">int_size4</span> <span class="o">=</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">a</span><span class="p">);</span>
+    <span class="kt">size_t</span> <span class="n">float_size1</span> <span class="o">=</span> <span class="k">sizeof</span><span class="p">(</span><span class="kt">float</span><span class="p">);</span>
+    
+    <span class="c1">// size_t는 변환 지정자 zu를 사용</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%zu</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="n">int_size4</span><span class="p">);</span>
+    
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>ey) 2. 정수 배열</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> 
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">int_arr</span><span class="p">[</span><span class="mi">30</span><span class="p">];</span>
+    <span class="c1">// int_ptr의 크기는 동적으로 변경될 수 있기 때문에 주소의 크기만을 가진다.</span>
+    <span class="kt">int</span> <span class="o">*</span><span class="n">int_ptr</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+    <span class="n">int_ptr</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">)</span> <span class="o">*</span> <span class="mi">30</span><span class="p">);</span>
+
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%zu</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">int_arr</span><span class="p">));</span> <span class="c1">// 120</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%zu</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">int_ptr</span><span class="p">));</span> <span class="c1">// 8</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>ez) 2. 문자 배열</p>
+<div class="language-c highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">int</span> <span class="nf">main</span><span class="p">()</span> 
+<span class="p">{</span>
+    <span class="kt">int</span> <span class="n">int_arr</span><span class="p">[</span><span class="mi">30</span><span class="p">];</span>
+    <span class="c1">// int_ptr의 크기는 동적으로 변경될 수 있기 때문에 주소의 크기만을 가진다.</span>
+    <span class="kt">int</span> <span class="o">*</span><span class="n">int_ptr</span> <span class="o">=</span> <span class="nb">NULL</span><span class="p">;</span>
+    <span class="n">int_ptr</span> <span class="o">=</span> <span class="p">(</span><span class="kt">int</span><span class="o">*</span><span class="p">)</span><span class="n">malloc</span><span class="p">(</span><span class="k">sizeof</span><span class="p">(</span><span class="kt">int</span><span class="p">)</span> <span class="o">*</span> <span class="mi">30</span><span class="p">);</span>
+
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%zu</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">int_arr</span><span class="p">));</span> <span class="c1">// 120</span>
+    <span class="n">printf</span><span class="p">(</span><span class="s">"%zu</span><span class="se">\n</span><span class="s">"</span><span class="p">,</span> <span class="k">sizeof</span><span class="p">(</span><span class="n">int_ptr</span><span class="p">));</span> <span class="c1">// 8</span>
+    <span class="k">return</span> <span class="mi">0</span><span class="p">;</span>
+<span class="p">}</span>
+</code></pre></div></div>
+:ET

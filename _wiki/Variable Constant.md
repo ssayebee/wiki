@@ -3,7 +3,7 @@ layout  : wiki
 title   : Variable Constant
 summary : 
 date    : 2020-07-28 14:52:39 +0900
-updated : 2020-07-29 17:21:37 +0900
+updated : 2020-07-29 22:52:36 +0900
 tags    : 
 toc     : true
 public  : true
@@ -14,9 +14,9 @@ latex   : false
 # Variable Constant
 
 ex)
-{{{c
+```c
 const int angel = 1004;
-}}}
+```
 
 | const          | int       | angel             | 1004             |
 |----------------|-----------|-------------------|------------------|
