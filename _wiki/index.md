@@ -46,14 +46,14 @@
   * [[cpu_structure]]
   * [[develop_7steps]]
   * [[software_bug]]
-  * [[idea definition]]
+  * [[ide_definition]]
   * [[amdahl's_law]]
-  * [[Reactive Programming]]
+  * [[reactive_programming]]
   * [[Blocking_Non-Blocking]]
   * [[Synchronous_Asynchronous]]
 
   === VIM ===
   * [[how_to_use_vim]]
-  * [[VimWiki]]
+  * [[vimwiki]]
   
 ----------------------------------------
