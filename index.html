@@ -3,7 +3,7 @@ layout: default
 title: Home
 ---
 
-<h1 class="mt-4 text-lg font-medium">최근 수정된 문서 (10)</h1>
+<div class="mt-4 text-lg font-bold">최근 수정된 문서 (10)</div>
 
 <div class="my-2">
   {% assign documents = site.wiki | sort: 'updated' | reverse %}
@@ -16,6 +16,6 @@ title: Home
     {% endfor %}
 </div>
 
-<h4 class="font-bold text-blue-500">
+<div class="text-lg font-bold text-blue-500">
   <a href="/recent.html">전체 문서 리스트 ({{ site.wiki | size }} 항목)</a>
-</h4>
+</div>

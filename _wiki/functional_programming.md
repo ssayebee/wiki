@@ -3,7 +3,7 @@ layout  : wiki
 title   : JS 함수형 프로그래밍
 summary : 
 date    : 2020-07-08 12:37:29 +0900
-updated : 2020-07-30 21:50:04 +0900
+updated : 2020-07-31 02:18:18 +0900
 tags    : 
 toc     : true
 public  : true
@@ -72,13 +72,13 @@ moveRight(dog);
 1. array_like, arguments, document.querySelectorAll
 
 
-```
+```javascript
 console.log(document.querySelectorAll('*'));
 ```
 js의 list는 내장함수 map, filter를 지원하지만 nodeList(유사 리스트)는 map, filter 함수를 사용할 수 없다.
 하지만 순수함수 _map, _filter를 직접 만든다면 사용이 가능하다.
 
-```
+```js
 console.log(
   _map(
     document.querySelectorAll('*'),
@@ -91,3 +91,41 @@ console.log(
 ### 3. 내부 다형성
 
 1. predi, iter, mapper
+
+### 4. 함수형 프로그래밍에서 오류 처리
+
+함수형 프로그래밍은 오류 데이터가 들어와도 그럴듯하게 처리하므로써 다형성을 극대화 시킨다.
+
+```javascript
+var _get = _curryr(function(obj, key) {
+  return obj == null ? undefined : obj[key]
+});
+
+var _length = _get('length');
+
+function _each(list, iter) {
+  var keys = _keys(list)
+  for(var i = 0, len = keys.length; i < len; i++) {
+    iter(list[keys[i]]);
+  }
+  return list;
+};
+
+function _is_obj(obj) {
+  return typeof obj == 'object' && !!obj;
+}
+
+function _keys(obj) {
+  return _is_obj(obj) ? Object.keys(obj) : [];
+}
+_each(null, console.log);
+```
+
+_each 함수에 null 처리, obj의 value도 처리 할 수 있게 함으로써 다형성을 극대화 할 수 있다.
+
+### 5. 컬렉션 중심 프로그래밍의 4가지 유형과 함수
+
+1. 수집하기 - map, values, pluck 등
+2. 거르기 - filter, reject, compact, without 등
+3. 찾아내기 - find, some, every 등
+4. 접기 - reduce, min, max, group_by, count_by

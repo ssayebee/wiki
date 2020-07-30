@@ -9,7 +9,7 @@
     <div class="flex">
       {% for item in site.data.nav %}
       <a href="{{ item.link }}" 
-         class="p-4 font-medium {% if page.url == item.link %} bg-teal-500 text-white {% endif %}
+         class="p-4 font-bold {% if page.url == item.link %} bg-teal-500 text-white {% endif %}
          hover:bg-gray-500 hover:shadow-outline">
         <div class="">
           {{ item.name }}
@@ -19,7 +19,7 @@
     </div>
 
     <div class="justify-end ml-4">
-      <a href="https://github.com/ssayebee">
+      <a href="https://github.com/ssayebee" target="_blank">
       <span class="text-4xl">
         <i class="fa fa-github" aria-hidden="true"></i>
       </span>
