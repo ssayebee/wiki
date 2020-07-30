@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Vimwiki
+title   : Vimwiki 사용법
 summary : 
 date    : 2020-07-22 00:13:28 +0900
-updated : 2020-07-22 00:14:11 +0900
+updated : 2020-07-30 21:50:43 +0900
 tags    : 
 toc     : true
 public  : true
@@ -11,7 +11,7 @@ parent  :
 latex   : false
 ---
 
-# VimWiki
+# VimWiki 사용법
 
 ## Wiki Management
 1. [number] <leader> ww : open wiki index file

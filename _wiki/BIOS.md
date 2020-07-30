@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : BIOS
+title   : BIOS란?
 summary : 
 date    : 2020-07-21 15:39:13 +0900
-updated : 2020-07-21 20:13:08 +0900
+updated : 2020-07-30 21:50:25 +0900
 tags    : 
 toc     : true
 public  : true
@@ -11,7 +11,7 @@ parent  :
 latex   : false
 ---
 
-# BIOS
+# BIOS란?
 
 BIOS는 (Basic Input Output System의 약어 이다.)
 

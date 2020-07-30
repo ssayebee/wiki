@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Object
+title   : 자바스크립트 객체
 summary : 
 date    : 2020-07-21 22:29:50 +0900
-updated : 2020-07-21 22:31:40 +0900
+updated : 2020-07-30 21:45:55 +0900
 tags    : 
 toc     : true
 public  : true
@@ -11,7 +11,7 @@ parent  :
 latex   : false
 ---
 
-# Object
+# 자바스크립트 객체
  
 ## 4.1 객체 선언하기
 

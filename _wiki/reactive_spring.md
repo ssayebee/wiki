@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 
+title   : Reactive Spring
 summary : 
 date    : 2020-07-22 00:28:15 +0900
-updated : 2020-07-22 00:30:30 +0900
+updated : 2020-07-30 21:52:06 +0900
 tags    : 
 toc     : true
 public  : true
@@ -11,7 +11,7 @@ parent  :
 latex   : false
 ---
 
-# 리액티브 스프링 분산처리 시스템
+# Reactive Spring
 
 ## Index
 1. 왜 반응성이 필요한가?
@@ -120,4 +120,4 @@ Redux : 상태 메시지 관리 머신
 * 비동기
 * 메시지
 
-[[https://sigmadream.tistory.com/95]]
+<https://sigmadream.tistory.com/95>
