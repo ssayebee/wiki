@@ -1,3 +1,8 @@
----
----
-@import "main";
+@tailwind base;
+@tailwind components;
+
+.current {
+    color: 'green';
+}
+
+@tailwind utilities;
