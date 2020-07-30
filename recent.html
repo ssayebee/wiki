@@ -2,7 +2,7 @@
 layout: default
 title: Blog
 ---
-<h1 class="mt-4 text-lg font-medium">총 {{ site.wiki | size | minus: 1}}개의 문서</h1>
+<h1 class="mt-4 text-lg font-medium">총 {{ site.wiki | size }}개의 문서</h1>
 
 <div class="my-2">
   {% assign documents = site.wiki | sort: 'updated' | reverse %}
