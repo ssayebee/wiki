@@ -2,13 +2,15 @@
 layout: default
 title: Blog
 ---
-<h1>최근 수정된 문서</h1>
+<h1 class="mt-4 text-lg font-medium">총 {{ site.wiki | size | minus: 1}}개의 문서</h1>
 
-{% assign documents = site.wiki | sort: 'updated' | reverse %}
-<ul>
+<div class="my-2">
+  {% assign documents = site.wiki | sort: 'updated' | reverse %}
     {% for doc in documents %}
-    <li>
-        <h2>{{ doc.updated | date: "%Y.%m.%d" }} - <a href="{{ doc.url }}">{{ doc.title }}</a></h2>
-    </li>
+    <a href="{{ doc.url }}">
+      <div class="list-items">
+        {{ doc.updated | date: "%Y.%m.%d" }} - {{ doc.title }}
+      </div>
+    </a>
     {% endfor %}
-</ul>
+</div>

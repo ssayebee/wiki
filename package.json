@@ -1,0 +1,23 @@
+{
+  "name": "wiki",
+  "version": "1.0.2",
+  "description": "custom wiki",
+  "scripts": {
+    "css": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ssayebee/wiki.git"
+  },
+  "author": "ssayebee",
+  "homepage": "https://github.com/ssayebee/wiki#readme",
+  "devDependencies": {
+    "autoprefixer": "^9.7.6",
+    "gulp": "^4.0.2",
+    "gulp-csso": "^4.0.1",
+    "gulp-postcss": "^8.0.0",
+    "gulp-sass": "^4.1.0",
+    "node-sass": "^4.14.0",
+    "tailwindcss": "^1.4.4"
+  }
+}

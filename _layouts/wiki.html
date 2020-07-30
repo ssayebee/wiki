@@ -1,4 +1,10 @@
 ---
 layout: default
 ---
+
+<div class="px-10 mt-10 border rounded">
+  <div class="mt-5 text-xs text-right text-gray-700">
+    작성: {{ page.date | date: "%Y-%m-%d" }} 수정: {{ page.date | date: "%Y-%m-%d" }}
+  </div>
 {{ content }}
+</div>
