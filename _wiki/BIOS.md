@@ -3,8 +3,8 @@ layout  : wiki
 title   : BIOS란?
 summary : 
 date    : 2020-07-21 15:39:13 +0900
-updated : 2020-07-30 21:50:25 +0900
-tags    : 
+updated : 2020-07-31 15:35:10 +0900
+tags    : [terms]
 toc     : true
 public  : true
 parent  : 

@@ -1,10 +1,10 @@
 ---
 layout  : wiki
-title   : sizeof 연산자 
+title   : c언어 sizeof 연산자 
 summary : 
 date    : 2020-07-29 16:11:41 +0900
-updated : 2020-07-29 22:53:46 +0900
-tags    : 
+updated : 2020-07-31 15:33:07 +0900
+tags    : [clang]
 toc     : true
 public  : true
 parent  : 

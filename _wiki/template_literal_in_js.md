@@ -1,10 +1,10 @@
 ---
 layout  : wiki
-title   : Template Literal
+title   : 자바스크립트 Template Literal
 summary : 
 date    : 2020-07-21 22:26:43 +0900
-updated : 2020-07-21 22:27:25 +0900
-tags    : 
+updated : 2020-07-31 15:36:29 +0900
+tags    : [js, es6]
 toc     : true
 public  : true
 parent  : 

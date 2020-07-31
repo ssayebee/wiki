@@ -3,8 +3,8 @@ layout  : wiki
 title   : 암달의 법칙
 summary : 
 date    : 2020-07-22 00:15:45 +0900
-updated : 2020-07-22 00:16:09 +0900
-tags    : 
+updated : 2020-07-31 15:39:06 +0900
+tags    : [terms, cs]
 toc     : true
 public  : true
 parent  : 

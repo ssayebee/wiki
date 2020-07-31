@@ -3,8 +3,8 @@ layout  : wiki
 title   : JS 함수형 프로그래밍
 summary : 
 date    : 2020-07-08 12:37:29 +0900
-updated : 2020-07-31 02:18:18 +0900
-tags    : 
+updated : 2020-07-31 15:37:07 +0900
+tags    : [js, fp]
 toc     : true
 public  : true
 parent  : 
