@@ -3,12 +3,8 @@ layout  : wiki
 title   : c언어 변수와 상수
 summary : 
 date    : 2020-07-28 14:52:39 +0900
-updated : 2020-07-31 15:31:49 +0900
+updated : 2020-07-31 17:57:00 +0900
 tags    : [clang]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # Variable Constant

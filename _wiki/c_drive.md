@@ -3,12 +3,8 @@ layout  : wiki
 title   : 왜 C드라이브 인가?
 summary : 
 date    : 2020-07-21 15:52:15 +0900
-updated : 2020-07-31 15:38:15 +0900
+updated : 2020-07-31 18:00:10 +0900
 tags    : [terms]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # 왜 C드라이브 인가?

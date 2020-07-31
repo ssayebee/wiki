@@ -3,12 +3,8 @@ layout  : wiki
 title   : 메모리의 구조
 summary : 
 date    : 2020-07-21 16:50:54 +0900
-updated : 2020-07-31 15:38:35 +0900
+updated : 2020-07-31 18:00:10 +0900
 tags    : [cs]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # 메모리의 구조

@@ -3,12 +3,8 @@ layout  : wiki
 title   : Reactive Programming 
 summary : 
 date    : 2020-07-22 00:17:54 +0900
-updated : 2020-07-31 15:39:15 +0900
+updated : 2020-07-31 18:00:10 +0900
 tags    : [rx]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # Reactive Programming

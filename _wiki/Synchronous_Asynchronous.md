@@ -3,12 +3,8 @@ layout  : wiki
 title   : 동기 vs 비동기
 summary : 
 date    : 2020-07-22 00:20:13 +0900
-updated : 2020-07-31 15:39:31 +0900
+updated : 2020-07-31 18:00:10 +0900
 tags    : [terms, cs]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # 동기(Synchronous) vs 비동기(Asynchronous)

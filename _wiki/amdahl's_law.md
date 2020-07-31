@@ -3,12 +3,8 @@ layout  : wiki
 title   : 암달의 법칙
 summary : 
 date    : 2020-07-22 00:15:45 +0900
-updated : 2020-07-31 15:39:06 +0900
+updated : 2020-07-31 18:00:10 +0900
 tags    : [terms, cs]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # 암달의 법칙(Amdahl's law)

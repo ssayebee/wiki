@@ -3,12 +3,8 @@ layout  : wiki
 title   : c언어 부동 소수점
 summary : 
 date    : 2020-07-28 16:23:22 +0900
-updated : 2020-07-31 15:32:26 +0900
+updated : 2020-07-31 17:58:19 +0900
 tags    : [clang]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # floating point

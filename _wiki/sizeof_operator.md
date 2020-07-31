@@ -3,12 +3,8 @@ layout  : wiki
 title   : c언어 sizeof 연산자 
 summary : 
 date    : 2020-07-29 16:11:41 +0900
-updated : 2020-07-31 15:33:07 +0900
+updated : 2020-07-31 17:58:19 +0900
 tags    : [clang]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # sizeof 연산자 

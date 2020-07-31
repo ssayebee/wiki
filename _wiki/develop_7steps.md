@@ -3,12 +3,8 @@ layout  : wiki
 title   : 소프트웨어 개발의 7가지 단계
 summary : 
 date    : 2020-07-21 21:08:21 +0900
-updated : 2020-07-21 21:10:55 +0900
+updated : 2020-07-31 18:00:10 +0900
 tags    : 
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # 소프트웨어 개발의 7가지 단계 

@@ -3,12 +3,8 @@ layout  : wiki
 title   : 현대적 컴퓨터 구조
 summary : 
 date    : 2020-07-21 16:43:09 +0900
-updated : 2020-07-31 15:38:27 +0900
+updated : 2020-07-31 18:00:10 +0900
 tags    : [cs]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # 현대적 컴퓨터 구조

@@ -3,12 +3,8 @@ layout  : wiki
 title   : CPU의 기본 구조
 summary : 
 date    : 2020-07-21 17:10:10 +0900
-updated : 2020-07-31 15:39:57 +0900
+updated : 2020-07-31 18:00:10 +0900
 tags    : [cs]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # CPU의 기본 구조

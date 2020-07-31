@@ -3,12 +3,8 @@ layout  : wiki
 title   : 
 summary : 
 date    : 2020-07-22 00:24:08 +0900
-updated : 2020-07-31 15:37:26 +0900
+updated : 2020-07-31 17:58:19 +0900
 tags    : [js, reactjs]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # ReactJS

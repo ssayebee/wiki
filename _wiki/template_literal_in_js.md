@@ -3,12 +3,8 @@ layout  : wiki
 title   : 자바스크립트 Template Literal
 summary : 
 date    : 2020-07-21 22:26:43 +0900
-updated : 2020-07-31 15:36:29 +0900
+updated : 2020-07-31 17:58:19 +0900
 tags    : [js, es6]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # Template Literal

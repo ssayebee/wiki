@@ -3,12 +3,8 @@ layout  : wiki
 title   : 변수와 상수
 summary : 
 date    : 2020-07-21 22:25:49 +0900
-updated : 2020-07-31 15:36:09 +0900
+updated : 2020-07-31 17:57:29 +0900
 tags    : [js, es6]
-toc     : true
-public  : true
-parent  : 
-latex   : false
 ---
 
 # 변수와 상수

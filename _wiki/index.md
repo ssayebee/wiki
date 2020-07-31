@@ -11,12 +11,13 @@
   * [[Object]]
   * [[functional_programming]]
 
-  === C ===
+  === CLANG ===
   * [[variable_constant_in_c]]
   * [[float_point]]
   * [[fixed_size_datatype]]
   * [[debug_with_gdb]]
   * [[sizeof_operator]]
+  * [[printf]]
   
   === JAVA ===
 
