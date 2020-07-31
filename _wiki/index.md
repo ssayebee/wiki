@@ -18,6 +18,7 @@
   * [[debug_with_gdb]]
   * [[sizeof_operator]]
   * [[printf]]
+  * [[scanf]]
   
   === JAVA ===
 
@@ -56,5 +57,6 @@
   === VIM ===
   * [[how_to_use_vim]]
   * [[vimwiki]]
+  * [[read_vim_help1]]
   
 ----------------------------------------
