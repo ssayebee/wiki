@@ -1,10 +1,10 @@
 ---
 layout  : wiki
-title   : Variable Constant
+title   : c언어 변수와 상수
 summary : 
 date    : 2020-07-28 14:52:39 +0900
-updated : 2020-07-29 22:52:36 +0900
-tags    : 
+updated : 2020-07-31 15:31:49 +0900
+tags    : [clang]
 toc     : true
 public  : true
 parent  : 

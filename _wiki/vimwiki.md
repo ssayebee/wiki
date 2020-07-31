@@ -3,8 +3,8 @@ layout  : wiki
 title   : Vimwiki 사용법
 summary : 
 date    : 2020-07-22 00:13:28 +0900
-updated : 2020-07-31 01:27:24 +0900
-tags    : 
+updated : 2020-07-31 15:33:46 +0900
+tags    : [vim, vimwiki]
 toc     : true
 public  : true
 parent  : 

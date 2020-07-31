@@ -3,8 +3,8 @@ layout  : wiki
 title   : IDE란 무엇인가?
 summary : 
 date    : 2020-07-21 21:37:48 +0900
-updated : 2020-07-21 21:44:51 +0900
-tags    : 
+updated : 2020-07-31 15:38:58 +0900
+tags    : [terms]
 toc     : true
 public  : true
 parent  : 

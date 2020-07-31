@@ -3,8 +3,8 @@ layout  : wiki
 title   : gdb를 이용한 터미널 c디버깅
 summary : 
 date    : 2020-07-28 15:37:50 +0900
-updated : 2020-07-30 00:45:53 +0900
-tags    : 
+updated : 2020-07-31 15:30:03 +0900
+tags    : [linux, clang, debug]
 toc     : true
 public  : true
 parent  : 

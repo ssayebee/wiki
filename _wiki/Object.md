@@ -3,8 +3,8 @@ layout  : wiki
 title   : 자바스크립트 객체
 summary : 
 date    : 2020-07-21 22:29:50 +0900
-updated : 2020-07-30 21:45:55 +0900
-tags    : 
+updated : 2020-07-31 15:36:47 +0900
+tags    : [js, es6]
 toc     : true
 public  : true
 parent  : 

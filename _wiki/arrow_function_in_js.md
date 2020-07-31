@@ -3,8 +3,8 @@ layout  : wiki
 title   : Arrow Function
 summary : 
 date    : 2020-07-21 22:27:53 +0900
-updated : 2020-07-21 22:29:32 +0900
-tags    : 
+updated : 2020-07-31 15:36:37 +0900
+tags    : [js, es6]
 toc     : true
 public  : true
 parent  : 

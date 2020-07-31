@@ -249,7 +249,7 @@ ol {
 
 .list-items {
   color: #646967;
-  @apply p-5 mb-2 text-base border rounded font-bold;
+  @apply p-5 mb-2 border rounded; 
   &:hover {
     @apply bg-gray-100;
   }

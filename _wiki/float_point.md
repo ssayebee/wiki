@@ -1,10 +1,10 @@
 ---
 layout  : wiki
-title   : floating point
+title   : c언어 부동 소수점
 summary : 
 date    : 2020-07-28 16:23:22 +0900
-updated : 2020-07-28 16:27:28 +0900
-tags    : 
+updated : 2020-07-31 15:32:26 +0900
+tags    : [clang]
 toc     : true
 public  : true
 parent  : 
