@@ -3,14 +3,15 @@
 	<head>
 		<meta charset="utf-8">
 		<title>{{ page.title }}</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href="/static/css/styles.css">
 		<link rel="stylesheet" href="/static/css/syntax.css">
 		<script src="https://use.fontawesome.com/373511708c.js"></script>
 	</head>
 	<body>
-		{% include nav.html %}
-		<div class="xl:mx-40 lg:mx-30">
-			{{ content }}
-		</div>
+    {% include nav.html %}
+    <div class="mx-3 xl:mx-40 lg:mx-30">
+      {{ content }}
+    </div>
 	</body>
 </html>
