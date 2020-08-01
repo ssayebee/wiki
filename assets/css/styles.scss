@@ -263,5 +263,9 @@ code.language-plaintext {
 	border-radius: 6px;
 }
 
+pre.highlight {
+  overflow: auto;
+}
+
 
 @tailwind utilities;
