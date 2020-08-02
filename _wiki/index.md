@@ -58,5 +58,6 @@
   * [[how_to_use_vim]]
   * [[vimwiki]]
   * [[read_vim_help1]]
+  * [[read_vim_help2]]
   
 ----------------------------------------
