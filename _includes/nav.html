@@ -1,6 +1,6 @@
 <nav class="flex justify-around w-full border-b">
   <div class="flex">
-    <a href="/" class="my-auto text-xl font-bold text-teal-500">
+    <a href="/" class="my-auto text-2xl font-bold text-teal-500">
       Wiki
     </a>
   </div>
@@ -9,11 +9,9 @@
     <div class="flex">
       {% for item in site.data.nav %}
       <a href="{{ item.link }}" 
-         class="p-4 font-bold {% if page.url == item.link %} bg-teal-500 text-white {% endif %}
+         class="text-lg p-4 font-bold {% if page.url == item.link %} bg-teal-500 text-white {% endif %}
          hover:bg-gray-500 hover:shadow-outline">
-        <div class="">
-          {{ item.name }}
-        </div>
+        {{ item.name }}
       </a>
       {% endfor %}
     </div>
