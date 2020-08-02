@@ -10,8 +10,12 @@
 		<link rel="icon" href="/static/img/favicon.ico">
 		<script src="https://use.fontawesome.com/373511708c.js"></script>
 	</head>
-	<body>
+	<body class="flex flex-col justify-between h-screen">
     {% include nav.html %}
-    {{ content }}
+    <div class="mb-auto">
+      {{ content }}
+    </div>
+    </div>
+    {% include footer.html %}
 	</body>
 </html>

@@ -76,7 +76,7 @@ h6 {
   color: #777777;
   font-size: 14px; }
 
-p, blockquote, ul, ol, dl, li, table, pre {
+p, blockquote, dl, li, table, pre {
   margin: 15px 0; }
 
 hr {
@@ -238,13 +238,18 @@ span.float-right {
 
 
 ul {
-  padding-left: 30px;
+  list-style-position: inside;
   @apply list-disc;
 }
 
 ol {
-  padding-left: 30px;
+  list-style-position: inside;
   @apply list-decimal;
+}
+
+li>ol, li>ul {
+	margin-bottom: 0;
+	margin-left: 1em;
 }
 
 .list-items {
