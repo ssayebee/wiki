@@ -3,7 +3,7 @@ layout  : wiki
 title   : 하루 20줄 vim help 번역하기 (2편)
 summary : 
 date    : 2020-08-02 17:22:48 +0900
-updated : 2020-08-02 18:52:57 +0900
+updated : 2020-08-02 18:55:19 +0900
 tags    : [vim]
 ---
 
