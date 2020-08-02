@@ -3,7 +3,7 @@ layout  : wiki
 title   : 하루 20줄 vim help 번역하기 (1편)
 summary : vim에서 help 명령어 사용하기
 date    : 2020-08-01 03:06:06 +0900
-updated : 2020-08-02 17:29:10 +0900
+updated : 2020-08-03 00:35:29 +0900
 tags    : [vim]
 ---
 
