@@ -3,7 +3,7 @@ layout  : wiki
 title   : 하루 20줄 vim help 번역하기 (2편)
 summary : 
 date    : 2020-08-02 17:22:48 +0900
-updated : 2020-08-02 18:44:28 +0900
+updated : 2020-08-02 18:51:11 +0900
 tags    : [vim]
 ---
 
@@ -15,6 +15,7 @@ help 검색: `:help word` 입력하고 `<Ctrl>-D`를 누르면 단어에 대한 
 Vim은 Vi IMproved의 약자이다. Vim의 대부분은 `Bram Moolenaar`가 만들었지만, 많은 사람들의 도움이 있었다.
 
 BASIC:
+
 | 문서     | 간단 설명                              |
 |----------|----------------------------------------|
 | quickref | 가장 많이 사용되는 명령어 미리보기     |
