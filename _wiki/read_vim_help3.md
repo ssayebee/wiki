@@ -3,7 +3,7 @@ layout  : wiki
 title   : 하루 20줄 vim help 번역하기 (3편)
 summary : 
 date    : 2020-08-03 00:56:21 +0900
-updated : 2020-08-03 03:46:10 +0900
+updated : 2020-08-03 18:56:48 +0900
 tags    : [vim]
 ---
 
@@ -25,31 +25,37 @@ tags    : [vim]
 | gj   | N    | `g`  | N스크린 아래로 이동 (differs from "j" when line wraps)                |
 
 ------------------------------------------------------------------------------
-Text object 움직임
 
-((((()))))
+## Text object 움직임
 
-| 명령  | 횟수 | 예제 | 설명                                            |
-|-------|------|------|-------------------------------------------------|
-| )     | N    | `)`  | N 문장 앞으로 이동                              |
-| (     | N    | `(`  | N 문장 뒤로 이동                                |
-| }     | N    | `}`  | N 문단 앞으로 이동                              |
-| {     | N    | `{`  | N 문단 뒤로 이동                                |
-| ]]    | N    | `]]` | N 섹션 앞으로, 섹션의 맨앞                      |
-| $$    | N    | `$$` | N 섹션 뒤로, 섹션의 맨뒤                        |
-| ]$    | N    | `]$` | N 섹션 앞으로, 섹션의 끝                        |
-| $]    | N    | `$]` | N 섹션 뒤로, 섹션의 끝                          |
-| $(    | N    | `$(` | N times back to unclosed '('                    |
-| ${    | N    | `${` | N times back to unclosed '{'                    |
-| $m    | N    | `$m` | N times back to start of method (for Java)      |
-| $M    | N    | `$M` | N times back to end of method (for Java)        |
-| ])    | N    | `])` | N times forward to unclosed ')'                 |
-| ]}    | N    | `]}` | N times forward to unclosed '}'                 |
-| ]m    | N    | `]m` | N times forward to start of method (for Java)   |
-| ]M    | N    | `]M` | N times forward to end of method (for Java)     |
-| $#    | N    | `$#` | N times back to unclosed "#if" or "#else"       |
-| ]#    | N    | `]#` | N times forward to unclosed "#else" or "#endif" |
-| $star | N    | `$*` | N times back to start of comment "/*"           |
-| ]star | N    | `]*` | N times forward to end of comment "*/"          |
 
-------------------------------------------------------------------------------
+| 명령  | 횟수 | 예제 | 설명                                                |
+|-------|------|------|-----------------------------------------------------|
+| w     | N    | `w`  | N 단어 앞으로 이동                                  |
+| W     | N    | `W`  | N 단어(특수 문자 포함) 앞으로 이동                  |
+| e     | N    | `e`  | 앞으로 N번째 단어의 끝으로 이동                     |
+| E     | N    | `E`  | 앞으로 N번째 단어(특수 문자 포함)의 끝으로 이동     |
+| b     | N    | `b`  | N 단어 뒤로 이동                                    |
+| B     | N    | `B`  | N 단어(특수 문자 포함) 뒤로 이동                    |
+| ge    | N    | `ge` | 앞에서 N번째 단어의 끝으로 이동                     |
+| gE    | N    | `gE` | 앞에서 N번째 단어(특수 문자 포함)의 끝으로 이동     |
+| )     | N    | `)`  | N 문장 앞으로 이동                                  |
+| (     | N    | `(`  | N 문장 뒤로 이동                                    |
+| }     | N    | `}`  | N 문단 앞으로 이동                                  |
+| {     | N    | `{`  | N 문단 뒤로 이동                                    |
+| ]]    | N    | `]]` | N 섹션 앞으로, 섹션의 맨앞                          |
+| $$    | N    | `$$` | N 섹션 뒤로, 섹션의 맨뒤                            |
+| ]$    | N    | `]$` | N 섹션 앞으로, 섹션의 끝                            |
+| $]    | N    | `$]` | N 섹션 뒤로, 섹션의 끝                              |
+| $(    | N    | `$(` | N 번 '(' 뒤로 이동                                  |
+| ${    | N    | `${` | N 번 '{' 뒤로 이동                                  |
+| $m    | N    | `$m` | N 번 이전 메서드의 시작부분으로 이동 (for Java)     |
+| $M    | N    | `$M` | N 번 이전 메서드의 끝 부분으로 이동 (for Java)      |
+| ])    | N    | `])` | N 번 ')' 앞으로 이동                                |
+| ]}    | N    | `]}` | N 번 '}' 앞으로 이동                                |
+| ]m    | N    | `]m` | N 번 다음 메서드의 시작부분으로 이동 (for Java)     |
+| ]M    | N    | `]M` | N 번 다음 메서드의 끝 부분으로 이동 (for Java)      |
+| $#    | N    | `$#` | N 번 "#if" or "#else" 뒤로 이동                     |
+| ]#    | N    | `]#` | N 번 "#else" or "#endif"앞으로 이동                 |
+| $star | N    | `$*` | N 번 뒤로 "/*" 주석의 시작부분으로 이동             |
+| ]star | N    | `]*` | N 번 앞으로 "*/" 주석의 끝 부분으로 이동            |
