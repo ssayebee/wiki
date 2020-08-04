@@ -40,6 +40,9 @@
 
 == ETC ==
 
+  === LINUX ===
+  * [[shell_cmd_sed]]
+
   === COMPUTER COMMON SENSE ===
   * [[BIOS]]
   * [[c_drive]]
