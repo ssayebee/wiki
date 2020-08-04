@@ -3,3 +3,4 @@ collections:
     output: true
 
 highlighter: rouge
+markdown: kramdown
