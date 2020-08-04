@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : BIOS란?
-summary : 
+summary : BIOS의 정의
 date    : 2020-07-21 15:39:13 +0900
-updated : 2020-07-31 18:00:10 +0900
+updated : 2020-08-04 16:44:55 +0900
 tags    : [terms]
 ---
 

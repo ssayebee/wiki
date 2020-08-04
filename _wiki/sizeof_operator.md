@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : c언어 sizeof 연산자 
-summary : 
+summary : c언어 sizeof 연산자 사용법
 date    : 2020-07-29 16:11:41 +0900
-updated : 2020-07-31 17:58:19 +0900
+updated : 2020-08-04 16:42:34 +0900
 tags    : [clang]
 ---
 

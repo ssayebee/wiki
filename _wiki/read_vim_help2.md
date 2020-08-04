@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : 하루 20줄 vim help 번역하기 (2편)
-summary : 
+summary : 좌, 우로 이동하는 명령어 정리
 date    : 2020-08-02 17:22:48 +0900
-updated : 2020-08-03 00:46:42 +0900
+updated : 2020-08-04 16:49:41 +0900
 tags    : [vim]
 ---
 

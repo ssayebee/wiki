@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 자바스크립트 Template Literal
-summary : 
+title   : JS 템플릿 리터럴
+summary : ES6 문자열을 쉽게 표기하는 방법
 date    : 2020-07-21 22:26:43 +0900
-updated : 2020-07-31 17:58:19 +0900
+updated : 2020-08-04 16:39:33 +0900
 tags    : [js, es6]
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : 왜 Bug인가?
-summary : 
+summary : Bug, Debug라는 용어가 나오게된 배경
 date    : 2020-07-21 21:15:40 +0900
-updated : 2020-07-31 18:00:10 +0900
+updated : 2020-08-04 16:47:38 +0900
 tags    : [terms]
 ---
 

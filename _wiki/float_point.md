@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : c언어 부동 소수점
-summary : 
+summary : c언어에서 실수형 타입이 차지하는 비트 수
 date    : 2020-07-28 16:23:22 +0900
-updated : 2020-07-31 17:58:19 +0900
+updated : 2020-08-04 16:41:33 +0900
 tags    : [clang]
 ---
 

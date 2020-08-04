@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : 메모리의 구조
-summary : 
+summary : 순차접근 vs 임의접근
 date    : 2020-07-21 16:50:54 +0900
-updated : 2020-07-31 18:00:10 +0900
+updated : 2020-08-04 16:46:07 +0900
 tags    : [cs]
 ---
 

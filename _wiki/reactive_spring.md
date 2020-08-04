@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : Reactive Spring
-summary : 
+summary : Reactive Spring을 사용하는 이유
 date    : 2020-07-22 00:28:15 +0900
-updated : 2020-07-31 17:58:19 +0900
+updated : 2020-08-04 16:44:21 +0900
 tags    : [rx, spring]
 ---
 

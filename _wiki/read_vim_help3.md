@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : 하루 20줄 vim help 번역하기 (3편)
-summary : 
+summary : 위아래, Text 움직임에 대한 정리
 date    : 2020-08-03 00:56:21 +0900
-updated : 2020-08-03 18:58:09 +0900
+updated : 2020-08-04 16:50:12 +0900
 tags    : [vim]
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : JS 함수형 프로그래밍
-summary : 
+summary : JS로 함수형 프로그래밍 작성하기
 date    : 2020-07-08 12:37:29 +0900
-updated : 2020-07-31 17:58:19 +0900
+updated : 2020-08-04 16:40:31 +0900
 tags    : [js, fp]
 ---
 

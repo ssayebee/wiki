@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 변수와 상수
-summary : 
+title   : JS 변수와 상수
+summary : var vs const vs let
 date    : 2020-07-21 22:25:49 +0900
-updated : 2020-07-31 17:57:29 +0900
+updated : 2020-08-04 16:38:50 +0900
 tags    : [js, es6]
 ---
 

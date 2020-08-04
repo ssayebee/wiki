@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : 왜 C드라이브 인가?
-summary : 
+summary : A, B드라이브는 어디에
 date    : 2020-07-21 15:52:15 +0900
-updated : 2020-07-31 18:00:10 +0900
+updated : 2020-08-04 16:45:08 +0900
 tags    : [terms]
 ---
 

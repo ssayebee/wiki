@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : gdb를 이용한 터미널 c디버깅
-summary : 
+summary : 터미널에서 c언어 디버깅 하기
 date    : 2020-07-28 15:37:50 +0900
-updated : 2020-07-31 17:58:19 +0900
+updated : 2020-08-04 16:42:22 +0900
 tags    : [linux, clang, debug]
 ---
 

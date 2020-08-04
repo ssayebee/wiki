@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : CPU의 기본 구조
-summary : 
+summary : 프로그램이 실행될 떄, CPU의 동작에 대한 정리
 date    : 2020-07-21 17:10:10 +0900
-updated : 2020-07-31 18:00:10 +0900
+updated : 2020-08-04 16:46:36 +0900
 tags    : [cs]
 ---
 

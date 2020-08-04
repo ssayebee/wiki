@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : Arrow Function
-summary : 
+title   : JS 화살표 문법
+summary : 함수를 표기하는 간단한 방법
 date    : 2020-07-21 22:27:53 +0900
-updated : 2020-07-31 17:58:19 +0900
+updated : 2020-08-04 16:39:55 +0900
 tags    : [js, es6]
 ---
 

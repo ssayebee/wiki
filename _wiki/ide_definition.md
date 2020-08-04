@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : IDE란 무엇인가?
-summary : 
+summary : IDE용어에 대한 간단한 정리
 date    : 2020-07-21 21:37:48 +0900
-updated : 2020-07-31 18:00:10 +0900
+updated : 2020-08-04 16:47:52 +0900
 tags    : [terms]
 ---
 

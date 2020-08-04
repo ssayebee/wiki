@@ -1,9 +1,9 @@
 ---
 layout  : wiki
 title   : Vim 사용법
-summary : 
+summary : Vim을 시작하기 위해 최소한으로 알아야 되는 정보
 date    : 2020-07-29 17:57:31 +0900
-updated : 2020-07-31 18:00:10 +0900
+updated : 2020-08-04 16:48:55 +0900
 tags    : [vim]
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 자바스크립트 객체
-summary : 
+title   : JS 객체
+summary : JS에서 객체를 다루는 방법
 date    : 2020-07-21 22:29:50 +0900
-updated : 2020-07-31 17:58:19 +0900
+updated : 2020-08-04 16:40:12 +0900
 tags    : [js, es6]
 ---
 

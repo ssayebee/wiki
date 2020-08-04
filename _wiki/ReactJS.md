@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : 
-summary : 
+title   : ReactJS 기초
+summary : Class Component를 이용한 Reactjs 기초
 date    : 2020-07-22 00:24:08 +0900
-updated : 2020-07-31 17:58:19 +0900
+updated : 2020-08-04 16:43:48 +0900
 tags    : [js, reactjs]
 ---
 
