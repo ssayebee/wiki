@@ -12,6 +12,9 @@ title: Blog
       <div class="text-base text-lg font-bold">
         {{ doc.updated | date: "%Y.%m.%d" }} - {{ doc.title }}
       </div>
+      <div class="my-2 font-bold text-blue-500">
+        {{ doc.summary }}
+      </div>
       <div class="flex">
         {% for tag in doc.tags %}
         <div class="p-1 mr-2 text-xs font-medium text-black bg-gray-300 border rounded ">
