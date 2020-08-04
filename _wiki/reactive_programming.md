@@ -7,8 +7,6 @@ updated : 2020-08-04 16:48:31 +0900
 tags    : [rx]
 ---
 
-# Reactive Programming
-
 * Reactive Programming은 기본적으로 모든 것을 스트림(stream)으로 본다.
 * 이벤트, ajax call 등 모든 데이터의 흐름을 시간순서에 의해 전달되어지는 스트림으로 처리한다.
 * 스트림이란, 시간 순서에의해 전달 되어진 값들의 collection 정도로 이해해 보자.

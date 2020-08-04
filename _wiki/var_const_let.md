@@ -7,8 +7,6 @@ updated : 2020-08-04 16:38:50 +0900
 tags    : [js, es6]
 ---
 
-# 변수와 상수
-
 ### var vs const vs let
 
 - 변수: 바뀔 수 있는 값(let, var)

@@ -7,8 +7,6 @@ updated : 2020-08-04 16:41:33 +0900
 tags    : [clang]
 ---
 
-# floating point
-
 ## 32 bit Single Precision
 
 용어 설명

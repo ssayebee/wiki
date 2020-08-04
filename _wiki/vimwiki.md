@@ -7,8 +7,6 @@ updated : 2020-08-04 16:49:07 +0900
 tags    : [vim, vimwiki]
 ---
 
-# VimWiki 사용법
-
 ## Wiki Management
 1. [number] `<leader>` ww : open wiki index file
 2. [nubeer] `<leader>` wt : open wiki index file in new tab

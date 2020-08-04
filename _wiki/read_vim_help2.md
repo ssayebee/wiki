@@ -7,8 +7,6 @@ updated : 2020-08-04 16:49:41 +0900
 tags    : [vim]
 ---
 
-# 하루 20줄 vim help 번역하기 (2편)
-
 help 검색: `:help word` 입력하고 `<Ctrl>-D`를 누르면 단어에 대한 도움말 항목을 얻을 수 있다.
 혹은 `:helpgrep word`를 사용할 수 있다.
 

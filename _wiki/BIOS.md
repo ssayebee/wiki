@@ -7,8 +7,6 @@ updated : 2020-08-04 16:44:55 +0900
 tags    : [terms]
 ---
 
-# BIOS란?
-
 BIOS는 (Basic Input Output System의 약어 이다.)
 
 컴퓨터가 처음 부팅될때, ROM BIOS가 가장 먼저 실행행되는데,

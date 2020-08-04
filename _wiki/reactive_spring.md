@@ -7,8 +7,6 @@ updated : 2020-08-04 16:44:21 +0900
 tags    : [rx, spring]
 ---
 
-# Reactive Spring
-
 ## Index
 1. 왜 반응성이 필요한가?
 2. 리액티브 시스템의 기본 원리(중요)

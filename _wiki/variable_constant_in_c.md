@@ -7,8 +7,6 @@ updated : 2020-08-04 16:40:48 +0900
 tags    : [clang]
 ---
 
-# Variable Constant
-
 ex)
 ```c
 const int angel = 1004;
