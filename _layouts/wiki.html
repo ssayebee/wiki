@@ -13,5 +13,7 @@ layout: default
       작성: {{ page.date | date: "%Y-%m-%d" }} 수정: {{ page.date | date: "%Y-%m-%d" }}
     </div>
   </div>
+  <h1>{{ page.title }}</h1>
+  <p class="text-2xl italic font-medium text-gray-600">{{ page.summary }}</p>
 	{{ content }}
 </article>
