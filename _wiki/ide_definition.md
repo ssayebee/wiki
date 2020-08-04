@@ -7,8 +7,6 @@ updated : 2020-08-04 16:47:52 +0900
 tags    : [terms]
 ---
 
-# IDE란 무엇인가?
-
 IDE(Integrated Development Environment) 통합 개발 환경의 약어이다.
 
 보다 빠르고 편하게 개발을 할 수 있게 도와주는 소프트웨어를 지칭한다.

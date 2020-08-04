@@ -7,8 +7,6 @@ updated : 2020-08-04 16:39:55 +0900
 tags    : [js, es6]
 ---
 
-# Arrow Function
-
 - ES6에 도입
 - 익명함수를 간단하게 만들 수 있다.
 

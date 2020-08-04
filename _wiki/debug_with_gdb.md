@@ -7,8 +7,6 @@ updated : 2020-08-04 16:42:22 +0900
 tags    : [linux, clang, debug]
 ---
 
-# gdb를 이용한 터미널 c디버깅
-
 gdb를 이용해서 터미널 환경에서 c언어 디버깅하기
 
 ## gdb(GNU Debugger)란?
