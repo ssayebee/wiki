@@ -3,7 +3,7 @@ layout  : wiki
 title   : Vimwiki 사용법
 summary : 
 date    : 2020-07-22 00:13:28 +0900
-updated : 2020-07-31 18:00:13 +0900
+updated : 2020-08-04 15:44:43 +0900
 tags    : [vim, vimwiki]
 ---
 
@@ -36,24 +36,24 @@ tags    : [vim, vimwiki]
 2. `=` :  add header level
 3. `-` : remove header level
 4. `+` : create/decoate links
-5. glm : increase indent of list item
-6. gll : decrease indent of list item
-7. gl* : or gl8 switch or insert "*" symbol
-8. gl# : or gl3 switch or insert "#" symbol
-9. gl- : switch or insert "-" symbol
-10. gl1 : switch or insert "1." symbol
+5. `glm` : increase indent of list item
+6. `gll` : decrease indent of list item
+7. `gl*` : or gl8 switch or insert "*" symbol
+8. `gl#` : or gl3 switch or insert "#" symbol
+9. `gl-` : switch or insert "-" symbol
+10. `gl1` : switch or insert "1." symbol
 
 ## Table Shortcuts
 1. `<A-Left>` : move column left
 2. `<A-Right>` : move column right 
 3. `<CR>` : (insert mode) go down/create cell
 4. `<Tab>` : (insert mode) go next/ create cell
-5. gqq or gww : reformat table
+5. `gqq` or `gww` : reformat table
 
 ## Text Objects
-1. ah : section between 2 headings including empty tralling lines
-2. ih : section between 2 headings excluding empty tralling lines
-3. a\ : table cell
-4. i\ inner table cell
-5. ac : table column 
-6. ic : inner table column
+1. `ah` : section between 2 headings including empty tralling lines
+2. `ih` : section between 2 headings excluding empty tralling lines
+3. `a\` : table cell
+4. `i\` inner table cell
+5. `ac` : table column 
+6. `ic` : inner table column

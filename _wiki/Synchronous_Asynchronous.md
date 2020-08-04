@@ -3,7 +3,7 @@ layout  : wiki
 title   : 동기 vs 비동기
 summary : 
 date    : 2020-07-22 00:20:13 +0900
-updated : 2020-08-04 15:35:52 +0900
+updated : 2020-08-04 16:19:40 +0900
 tags    : [terms, cs]
 ---
 

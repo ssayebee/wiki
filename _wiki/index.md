@@ -60,5 +60,6 @@
   * [[read_vim_help1]]
   * [[read_vim_help2]]
   * [[read_vim_help3]]
+  * [[read_vim_help4]]
   
 ----------------------------------------
