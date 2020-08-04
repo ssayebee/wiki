@@ -3,11 +3,11 @@ layout  : wiki
 title   : sed를 이용한 문제 해결 경험
 summary : title과 중복되는 h1을 지우자
 date    : 2020-08-05 02:21:27 +0900
-updated : 2020-08-05 02:57:17 +0900
-tags    : [cmd, sed]
+updated : 2020-08-05 03:12:11 +0900
+tags    : [command, sed, zsh]
 ---
 
-## 문제사항
+## 문제 상황
 
 `wiki/_wiki/`에 위치한 `index.md`를 제외한 `*.md`은 아래의 형식으로 구성되어 있었다.
 
