@@ -3,8 +3,9 @@ layout  : wiki
 title   : 하루 20줄 vim help 번역하기 (5편)
 summary : Mark를 이용한 커서 이동
 date    : 2020-08-06 15:50:05 +0900
-updated : 2020-08-06 17:29:44 +0900
+updated : 2020-08-06 18:14:29 +0900
 tags    : [vim]
+comments: true
 ---
 
 # 마크와 움직임
