@@ -4,3 +4,8 @@ collections:
 
 highlighter: rouge
 markdown: kramdown
+comments:
+  provider: disqus
+  ...
+disqus:
+  shortname: ssayebee
