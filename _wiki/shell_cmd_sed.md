@@ -3,11 +3,12 @@ layout  : wiki
 title   : sed를 이용한 문제 해결 경험
 summary : title과 중복되는 h1을 지우자
 date    : 2020-08-05 02:21:27 +0900
-updated : 2020-08-05 03:12:11 +0900
+updated : 2020-08-06 19:19:17 +0900
 tags    : [command, sed, zsh]
+comments: true
 ---
 
-## 문제 상황
+## 1. 문제 상황
 
 `wiki/_wiki/`에 위치한 `index.md`를 제외한 `*.md`은 아래의 형식으로 구성되어 있었다.
 
@@ -32,7 +33,7 @@ tags    : [js, fp]
 
 검색 도중 sed라는 command가 있는 것을 알았고, shell command를 작성해 보았다.
 
-## 문제 해결
+## 2. 문제 해결
 ```bash
 $ ls _wiki | grep *.md | grep -v index | while read line
 do
@@ -45,7 +46,40 @@ done
 3. `index`가 매치되지 않는 파일을 파이프
 4. 라인을 읽어서 `sed -i '10,11d' {fileName}` 명령어 실행
 
-## 새로 알게된 내용
+## 3. 새로 알게된 내용
 
 * `grep`의 -v는 해당 패턴을 제외한 패턴들만 매칭한다.
 * `sed`는 원래 원본 파일을 수정하지 않고 결과를 출력하지만, -i옵션을 사용하면 원본 파일을 수정할 수 있다.
+
++ 추가
+    
+## 4. sed를 이용해서 라인 추가하기
+
+```md
+---
+layout  : wiki
+title   : JS 함수형 프로그래밍
+summary : JS로 함수형 프로그래밍 작성하기
+date    : 2020-07-08 12:37:29 +0900
+updated : 2020-08-04 16:40:31 +0900
+tags    : [js, fp]
+---
+```
+
+dispus의 comments 기능을 추가하면서, tags 밑에 라인에 `comments: true`를 추가해야 한다.
+
+간단하게 7번째 라인에 comments: true를 추가하면 된다.
+
+```bash
+$ ls _wiki | grep *.md | grep -v index | while read line
+do
+    sed -i '7acomments: true' "$line"
+done
+```
+
+놀랍게도 너무 잘된다.!
+
+##  5. 정리
+
+`sed`명령어는 여러모로 강력한 명령어인 것 같다. 좀 더 학습하면, 터미널 환경에서도 강력한 에디팅을 할 수 있을거 같다.
+시간날 때, 제대로 다시 정리하자!

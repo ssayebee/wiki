@@ -5,6 +5,7 @@ summary : 좌, 우로 이동하는 명령어 정리
 date    : 2020-08-02 17:22:48 +0900
 updated : 2020-08-04 16:49:41 +0900
 tags    : [vim]
+comments: true
 ---
 
 help 검색: `:help word` 입력하고 `<Ctrl>-D`를 누르면 단어에 대한 도움말 항목을 얻을 수 있다.

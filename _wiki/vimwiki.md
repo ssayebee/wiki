@@ -5,6 +5,7 @@ summary : Vimwiki 단축키에 대한 정리
 date    : 2020-07-22 00:13:28 +0900
 updated : 2020-08-04 16:49:07 +0900
 tags    : [vim, vimwiki]
+comments: true
 ---
 
 ## Wiki Management

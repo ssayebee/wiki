@@ -5,6 +5,7 @@ summary : 터미널에서 c언어 디버깅 하기
 date    : 2020-07-28 15:37:50 +0900
 updated : 2020-08-04 16:42:22 +0900
 tags    : [linux, clang, debug]
+comments: true
 ---
 
 gdb를 이용해서 터미널 환경에서 c언어 디버깅하기

@@ -5,6 +5,7 @@ summary : c언어 printf 함수에 대한 정리
 date    : 2020-07-31 15:45:20 +0900
 updated : 2020-07-31 18:32:53 +0900
 tags    : [clang]
+comments: true
 ---
 
 ## 형식 지정자

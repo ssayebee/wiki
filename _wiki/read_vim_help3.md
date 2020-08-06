@@ -5,6 +5,7 @@ summary : 위아래, Text 움직임에 대한 정리
 date    : 2020-08-03 00:56:21 +0900
 updated : 2020-08-04 16:50:12 +0900
 tags    : [vim]
+comments: true
 ---
 
 ## 위 아래 움직임

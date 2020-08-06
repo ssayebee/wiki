@@ -5,6 +5,7 @@ summary : c언어 scanf의 데이터 타입 지정자
 date    : 2020-07-31 18:33:55 +0900
 updated : 2020-08-04 16:42:58 +0900
 tags    : [clang]
+comments: true
 ---
 
 

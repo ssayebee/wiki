@@ -5,6 +5,7 @@ summary :
 date    : 2020-07-22 00:20:13 +0900
 updated : 2020-08-04 16:19:40 +0900
 tags    : [terms, cs]
+comments: true
 ---
 
 1. I/O 이벤트 통지 모델

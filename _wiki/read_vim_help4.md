@@ -3,7 +3,7 @@ layout  : wiki
 title   : 하루 20줄 vim help 번역하기 (4편)
 summary : vim에서 pattern을 이용한 검색
 date    : 2020-08-04 15:44:51 +0900
-updated : 2020-08-06 18:32:20 +0900
+updated : 2020-08-06 19:07:35 +0900
 tags    : [vim]
 comments: true
 ---

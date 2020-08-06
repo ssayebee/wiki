@@ -5,6 +5,7 @@ summary : Reactive Spring을 사용하는 이유
 date    : 2020-07-22 00:28:15 +0900
 updated : 2020-08-04 16:44:21 +0900
 tags    : [rx, spring]
+comments: true
 ---
 
 ## Index

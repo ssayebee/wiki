@@ -5,6 +5,7 @@ summary : 현대적 컴퓨터구조에 대한 간단한 정리
 date    : 2020-07-21 16:43:09 +0900
 updated : 2020-08-04 16:45:46 +0900
 tags    : [cs]
+comments: true
 ---
 
 폰노이만이 제시한 Stored-Program 방식을 채택하여 사용중이다.

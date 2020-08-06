@@ -5,6 +5,7 @@ summary : var vs const vs let
 date    : 2020-07-21 22:25:49 +0900
 updated : 2020-08-04 16:38:50 +0900
 tags    : [js, es6]
+comments: true
 ---
 
 ### var vs const vs let

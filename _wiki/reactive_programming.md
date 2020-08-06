@@ -5,6 +5,7 @@ summary : Reactive Programming이란?
 date    : 2020-07-22 00:17:54 +0900
 updated : 2020-08-04 16:48:31 +0900
 tags    : [rx]
+comments: true
 ---
 
 * Reactive Programming은 기본적으로 모든 것을 스트림(stream)으로 본다.

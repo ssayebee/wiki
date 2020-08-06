@@ -5,6 +5,7 @@ summary : BIOS의 정의
 date    : 2020-07-21 15:39:13 +0900
 updated : 2020-08-04 16:44:55 +0900
 tags    : [terms]
+comments: true
 ---
 
 BIOS는 (Basic Input Output System의 약어 이다.)
