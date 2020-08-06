@@ -3,7 +3,7 @@ layout  : wiki
 title   : sed를 이용한 문제 해결 경험
 summary : title과 중복되는 h1을 지우자
 date    : 2020-08-05 02:21:27 +0900
-updated : 2020-08-06 19:19:17 +0900
+updated : 2020-08-06 19:35:35 +0900
 tags    : [command, sed, zsh]
 comments: true
 ---
@@ -66,7 +66,7 @@ tags    : [js, fp]
 ---
 ```
 
-dispus의 comments 기능을 추가하면서, tags 밑에 라인에 `comments: true`를 추가해야 한다.
+해당 블로그에 disqus를 이용한 comments 기능을 추가하면서, tags 밑에 라인에 `comments: true`를 추가해야 한다.
 
 간단하게 7번째 라인에 comments: true를 추가하면 된다.
 
