@@ -37,11 +37,18 @@
 == ALGORITHM ==
 
 ----------------------------------------
+  
+== FRONTEND ==
+
+  === CSS ===
+
+----------------------------------------
 
 == ETC ==
 
   === LINUX ===
   * [[shell_cmd_sed]]
+  * [[special_symbols]]
 
   === COMPUTER COMMON SENSE ===
   * [[BIOS]]
@@ -58,6 +65,7 @@
   * [[Synchronous_Asynchronous]]
 
   === VIM ===
+  * [[vim_replace]]
   * [[how_to_use_vim]]
   * [[vimwiki]]
   * [[read_vim_help1]]
@@ -65,5 +73,8 @@
   * [[read_vim_help3]]
   * [[read_vim_help4]]
   * [[read_vim_help5]]
-  
+  * [[read_vim_help6]]
+
+  === WSL ===
+  * [[ctrls_ctrlq]]
 ----------------------------------------
