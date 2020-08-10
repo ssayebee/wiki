@@ -1,6 +1,6 @@
-- name: POST
+- name: Post
   link: /post.html
-- name: TAGS
+- name: Tags
   link: /tags.html
 - name: About
   link: /about.html
