@@ -10,6 +10,7 @@
   * [[arrow_function_in_js]]
   * [[Object]]
   * [[functional_programming]]
+  * [[js_built_in_types]]
 
   === CLANG ===
   * [[variable_constant_in_c]]
@@ -75,6 +76,6 @@
   * [[read_vim_help5]]
   * [[read_vim_help6]]
 
-  === WSL ===
-  * [[ctrls_ctrlq]]
+  === CS ===
+  * [[software_flow_control]]
 ----------------------------------------

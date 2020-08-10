@@ -1,9 +1,9 @@
 ---
 layout  : wiki
-title   : vim &ltCtrl&gt + s 먹통 문제
-summary : vim에서 ^S를 눌렀을때, 먹통되는 문제 해결
+title   : Software Flow Control XON, XOFF
+summary : 터미널 먹통 현상 해결
 date    : 2020-08-08 01:55:33 +0900
-updated : 2020-08-10 00:18:36 +0900
+updated : 2020-08-10 14:35:21 +0900
 tags    : 
 comments: true
 ---
