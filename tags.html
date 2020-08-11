@@ -6,13 +6,13 @@ title: Tags
 <div class="mx-3 xl:mx-40 lg:mx-30">
     {% assign documents = site.wiki | sort: 'updated' %}
     {% assign tags =  site.wiki | map: 'tags' | uniq | sort %}
-    <h2 class="my-4 text-3xl font-bold">
-        Tags ({{ tags.size }})
+    <h2 class="my-4 text-lg font-bold">
+        총 {{ tags.size }}개의 태그
     </h2>
     <div class="">
         {% for tag in tags %}
         <div class="p-4 mb-2 border">
-            <h3 class="text-xl font-semibold">{{ tag }}</h3>
+            <h3 class="mb-2 text-xl font-semibold">{{ tag }}</h3>
             {% for doc in documents %}
             {% if doc.tags contains tag %}
             <ul class="list-disc list-inside">
