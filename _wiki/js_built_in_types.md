@@ -3,8 +3,8 @@ layout  : wiki
 title   : JS 내장 타입 
 summary : JavaScript 내장 타입에 대한 정리
 date    : 2020-08-10 00:38:28 +0900
-updated : 2020-08-10 14:34:31 +0900
-tags    : 
+updated : 2020-08-11 19:44:10 +0900
+tags    : [js, es6]
 comments: true
 ---
 

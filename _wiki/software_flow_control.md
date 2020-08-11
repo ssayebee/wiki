@@ -3,8 +3,8 @@ layout  : wiki
 title   : Software Flow Control XON, XOFF
 summary : 터미널 먹통 현상 해결
 date    : 2020-08-08 01:55:33 +0900
-updated : 2020-08-10 14:35:21 +0900
-tags    : 
+updated : 2020-08-11 19:44:34 +0900
+tags    : [terminal, cs]
 comments: true
 ---
 

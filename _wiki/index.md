@@ -20,6 +20,7 @@
   * [[sizeof_operator]]
   * [[printf]]
   * [[scanf]]
+  * [[expressions_statements]]
   
   === JAVA ===
 
