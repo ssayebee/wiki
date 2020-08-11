@@ -2,11 +2,35 @@
 layout: default
 title: Tags
 ---
+
 <div class="mx-3 xl:mx-40 lg:mx-30">
-  <div class="mt-4 text-3xl font-bold">
-  Tags page
-  </div>
-  <div class="mt-5 text-base text-xl">
-  지금은 준비 중입니다.
-  </div>
+    {% assign documents = site.wiki | sort: 'updated' %}
+    {% assign tags =  site.wiki | map: 'tags' | uniq | sort %}
+    <h2 class="my-4 text-3xl font-bold">
+        Tags ({{ tags.size }})
+    </h2>
+    <div class="">
+        {% for tag in tags %}
+        <div class="p-4 mb-2 border">
+            <h3 class="text-xl font-semibold">{{ tag }}</h3>
+            {% for doc in documents %}
+            {% if doc.tags contains tag %}
+            <ul class="list-disc list-inside">
+                <a href="{{ site.baseurl }}{{ doc.url }}">
+                    <li class="flex my-1 font-medium">
+                        <p>{{ doc.updated | date: "%Y.%m.%d" }} - </p>
+                        <h3 class="ml-1 text-lg font-bold text-blue-600">{{ doc.title }}</h3>
+                        {% for tag in doc.tags %}
+                        <div class="p-1 ml-2 text-xs font-medium text-black bg-gray-300 border rounded ">
+                            # {{ tag }}
+                        </div>
+                        {% endfor %}
+                    </li>
+                </a>
+            </ul>
+            {% endif %}
+            {% endfor %}
+        </div>
+        {% endfor %}
+    </div>
 </div>
