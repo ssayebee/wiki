@@ -21,6 +21,8 @@
   * [[printf]]
   * [[scanf]]
   * [[expressions_statements]]
+  * [[c_type_conversions]]
+  * [[c_arguments_vs_parameters]]
   
   === JAVA ===
 
