@@ -19,7 +19,7 @@ title: Tags
                 <a href="{{ site.baseurl }}{{ doc.url }}">
                     <li class="flex my-1 font-medium">
                         <p>{{ doc.updated | date: "%Y.%m.%d" }} - </p>
-                        <h3 class="ml-1 text-lg font-bold text-blue-600 hover:text-purple-600">{{ doc.title }}</h3>
+                        <h3 class="ml-1 text-base text-lg font-bold hover:text-purple-600">{{ doc.title }}</h3>
                         {% for tag in doc.tags %}
                         <div class="p-1 ml-2 text-xs font-medium text-black bg-gray-300 border rounded ">
                             # {{ tag }}
