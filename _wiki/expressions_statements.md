@@ -3,8 +3,9 @@ layout  : wiki
 title   : Expressions vs Statements
 summary : C언어 Expressions, Statements 용어 정리
 date    : 2020-08-10 21:57:29 +0900
-updated : 2020-08-11 19:48:47 +0900
-tags    : [term, clang]
+updated : 2020-08-12 15:25:11 +0900
+tags    : [terms, clang]
+comments: true
 ---
 
 ## Expressions vs Statements
