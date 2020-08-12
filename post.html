@@ -3,27 +3,28 @@ layout: default
 title: Post
 ---
 <div class="mx-3 md:mx-40">
-    <div class="mt-4 text-lg font-bold">총 {{ site.wiki | size }}개의 문서</div>
-    <div class="my-2">
-        {% assign documents = site.wiki | sort: 'updated' | reverse %}
-        {% for doc in documents %}
-        <a href="{{ doc.url }}">
-            <div class="list-items">
-                <div class="text-base text-lg font-bold">
-                    {{ doc.updated | date: "%Y.%m.%d" }} - {{ doc.title }}
-                </div>
-                <div class="my-2 font-bold text-blue-500">
-                    {{ doc.summary }}
-                </div>
-                <div class="flex">
-                    {% for tag in doc.tags %}
-                    <div class="p-1 mr-2 text-xs font-medium text-black bg-gray-300 border rounded ">
-                        # {{ tag }}
-                    </div>
-                    {% endfor %}
-                </div>
-            </div>
-        </a>
-        {% endfor %}
-    </div>
+  <div class="mt-4 text-lg font-bold">총 {{ site.wiki | size }}개의 문서</div>
+  <ul class="my-2">
+    {% assign documents = site.wiki | sort: 'updated' | reverse %}
+    {% for doc in documents %}
+    <a href="{{ doc.url }}">
+      <li class="list-items">
+        <h2 class="text-base text-lg font-bold text-primary">
+          {{ doc.updated | date: "%Y.%m.%d" }} - {{ doc.title }}
+        </h2>
+        <h3 class="my-2 font-bold text-blue-500">
+          {{ doc.summary }}
+        </h3>
+        <ul class="flex">
+          {% for tag in doc.tags %}
+          <li class="p-1 mr-2 text-xs font-medium text-black bg-gray-300 border rounded ">
+            # {{ tag }}
+          </li>
+          {% endfor %}
+        </ul>
+      </li>
+    </a>
+    {% endfor %}
+  </ul>
 </div>
+

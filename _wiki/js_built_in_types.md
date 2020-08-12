@@ -3,7 +3,7 @@ layout  : wiki
 title   : JS 내장 타입 
 summary : JavaScript 내장 타입에 대한 정리
 date    : 2020-08-10 00:38:28 +0900
-updated : 2020-08-11 19:44:10 +0900
+updated : 2020-08-12 16:13:59 +0900
 tags    : [js, es6]
 comments: true
 ---
@@ -32,7 +32,7 @@ typeof null === "object" // true ???
 
 JS에서 타입은 **typeof** 연산자를 통해 확인 할 수 있다.
 
-*하지만, `null`은 **typeof** 연산자만을 가지고는 확인 할 수 없다.**
+하지만, `null`은 **typeof** 연산자만을 가지고는 확인 할 수 없다.
 
 처음에는 버그였지만, 웹의 역사에 따른 호환성 보장 문제 때문에,
 `null` 체킹을 하기 위해서는, ~~괴랄한~~ 코드가 필요하다.

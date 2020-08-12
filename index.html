@@ -4,30 +4,29 @@ title: Home
 ---
 
 <div class="mx-3 md:mx-40">
-    <div class="mt-4 text-lg font-bold">최근 수정된 문서 (10)</div>
-    <div class="my-2">
+    <h1 class="mt-4 text-lg font-bold">최근 수정된 문서 (10)</h1>
+    <ul class="my-2">
         {% assign documents = site.wiki | sort: 'updated' | reverse %}
         {% for doc in documents limit: 10 %}
         <a href="{{ doc.url }}">
-            <div class="list-items">
-                <div class="text-base text-xl font-bold">
+            <li class="list-items">
+                <h2 class="text-base text-lg font-bold text-primary">
                     {{ doc.updated | date: "%Y.%m.%d" }} - {{ doc.title }}
-                </div>
-                <div class="my-2 font-bold text-blue-500">
+                </h2>
+                <h3 class="my-2 font-bold text-blue-500">
                     {{ doc.summary }}
-                </div>
-                <div class="flex">
+                </h3>
+                <ul class="flex">
                     {% for tag in doc.tags %}
-                    <div class="p-1 mr-2 text-xs font-medium text-black bg-gray-300 border rounded ">
+                    <li class="p-1 mr-2 text-xs font-medium text-black bg-gray-300 border rounded ">
                         # {{ tag }}
-                    </div>
+                    </li>
                     {% endfor %}
-                </div>
-            </div>
+                </ul>
+            </li>
         </a>
         {% endfor %}
-    </div>
-
+    </ul>
     <div class="text-lg font-bold text-teal-500">
         <a href="/post.html">전체 문서 리스트 ({{ site.wiki | size }} 항목)</a>
     </div>
