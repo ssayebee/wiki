@@ -80,4 +80,7 @@
 
   === CS ===
   * [[software_flow_control]]
+
+  === DB ===
+  * [[mysql_create_user_with_grant]]
 ----------------------------------------
