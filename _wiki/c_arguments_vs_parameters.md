@@ -3,8 +3,8 @@ layout  : wiki
 title   : Arguments VS Paramemters
 summary : Arguments ? Paramemters ?
 date    : 2020-08-12 18:40:09 +0900
-updated : 2020-08-12 19:02:52 +0900
-tags    : [terms, c]
+updated : 2020-08-15 16:05:19 +0900
+tags    : [terms, clang]
 comments: true
 ---
 

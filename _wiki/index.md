@@ -79,6 +79,7 @@
   * [[read_vim_help4]]
   * [[read_vim_help5]]
   * [[read_vim_help6]]
+  * [[read_vim_help7]]
 
   === CS ===
   * [[software_flow_control]]
