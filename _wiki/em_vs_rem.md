@@ -13,7 +13,7 @@ comments: true
 ~~~css
 .box{
 	font-size: 20px;
-	.chlid{
+	.child{
 		width: 0.5em;
 	}
 }
@@ -30,7 +30,7 @@ html {
 }
 .box{
 	font-size: 20px;
-	.chlid{
+	.child{
 		width: 0.5rem;
 	}
 }
