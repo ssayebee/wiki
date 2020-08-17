@@ -16,7 +16,7 @@ layout: default
     <h1>{{ page.title }}</h1>
     <p class="text-2xl italic font-medium text-gray-600">{{ page.summary }}</p>
     {{ content }}
-    <div class="flex justify-between text-lg">
+    <div class="flex flex-col text-lg md:flex-row md:justify-between">
         {% if page.next.url %}
         <a class="" href="{{page.next.url}}">
             <b class=""> &lt; Next [ {{page.next.title}} ]</b>
