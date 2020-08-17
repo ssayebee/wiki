@@ -10,7 +10,7 @@ comments: true
 
 ## 형식 지정자
 
-**printf의 함수는 다음과 같이 구성된다.
+**printf의 함수는 다음과 같이 구성된다.**
 
 `%[flag][width][.precision][length]specifier`
 
