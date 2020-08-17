@@ -13,3 +13,5 @@ disqus:
   shortname: ssayebee
 # Google Analytics
 google_analytics: UA-175521892-1
+plugins: 
+  - jekyll-sitemap
