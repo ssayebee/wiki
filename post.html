@@ -7,23 +7,7 @@ title: Post
   <ul class="my-2">
     {% assign documents = site.wiki | sort: 'updated' | reverse %}
     {% for doc in documents %}
-    <a href="{{ doc.url }}">
-      <li class="list-items">
-        <h2 class="text-base text-lg font-bold text-primary">
-          {{ doc.updated | date: "%Y.%m.%d" }} - {{ doc.title }}
-        </h2>
-        <h3 class="my-2 font-bold text-blue-500">
-          {{ doc.summary }}
-        </h3>
-        <ul class="flex">
-          {% for tag in doc.tags %}
-          <li class="p-1 mr-2 text-xs font-medium text-black bg-gray-300 border rounded ">
-            # {{ tag }}
-          </li>
-          {% endfor %}
-        </ul>
-      </li>
-    </a>
+    {% include wiki_list.html doc=doc %}
     {% endfor %}
   </ul>
 </div>
