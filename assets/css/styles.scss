@@ -1,11 +1,4 @@
 @tailwind base;
 @tailwind components;
 
-.list-items {
-  @apply p-5 mb-2 border rounded; 
-  &:hover {
-    @apply bg-gray-100;
-  }
-}
-
 @tailwind utilities;

@@ -5,31 +5,32 @@ summary: 웹 개발을 하면서 알게 된 내용들을 Tag별로 정리합니�
 ---
 
 <div class="md:mx-40">
-    {% assign documents = site.wiki | sort: 'updated' %}
-    {% assign tags =  site.wiki | map: 'tags' | uniq | sort %}
-    <h1 class="mt-4 ml-3 text-lg font-bold md:ml-0">
-        총 {{ tags.size }}개의 태그
-    </h1>
-    <ul class="p-4 mt-2 mb-4 border">
-        {% for tag in tags %}
-        <li>
-            <h2 class="mb-3 text-2xl font-semibold">{{ tag }}</h3>
-            <ul>
-            {% for doc in documents %}
-            {% if doc.tags contains tag %}
-            {% include wiki_list.html doc=doc %}
-            {% endif %}
-            {% endfor %}
-            </ul>
-        </li>
+  {% assign documents = site.wiki | sort: 'updated' %}
+  {% assign tags =  site.wiki | map: 'tags' | uniq | sort %}
+  <h1 class="mt-4 ml-2 text-lg font-bold md:ml-0">
+    총 {{ tags.size }}개의 태그
+  </h1>
+  <ul class="p-2 mt-2 mb-4 border md:p-4">
+    {% for tag in tags %}
+    <li>
+      <h2 class="mb-3 text-2xl font-semibold">{{ tag }}</h3>
+      <ul>
+        {% for doc in documents %}
+        {% if doc.tags contains tag %}
+        {% include wiki_list.html doc=doc %}
+        {% endif %}
         {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
 
-        <li>
-            <h2 class="mb-2 text-xl font-semibold">undefined</h2>
-            {% for doc in documents %}
-            {% if doc.tags.size == 0 %}
-            {% include wiki_list.html doc=doc %}
-            {% endif %}
-            {% endfor %}
-        </li>
-    </ul>
+    <li>
+      <h2 class="mb-2 text-xl font-semibold">undefined</h2>
+      {% for doc in documents %}
+      {% if doc.tags.size == 0 %}
+      {% include wiki_list.html doc=doc %}
+      {% endif %}
+      {% endfor %}
+    </li>
+  </ul>
+</div>
