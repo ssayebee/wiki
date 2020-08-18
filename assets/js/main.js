@@ -25,3 +25,12 @@ function timeForToday(value) {
 
     return `${Math.floor(betweenTimeDay / 365)}년전`;
 }
+
+function toggleBar() {
+    let bar_menu = document.querySelector(".bar-menu");
+    if (bar_menu.style.display === "none") {
+        bar_menu.style.display = "block";
+    } else {
+        bar_menu.style.display = "none";
+    }
+}

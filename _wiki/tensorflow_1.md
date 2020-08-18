@@ -93,4 +93,4 @@ comments: true
 4. **모델**을 데이터에 딱 맞게 하는 과정(학습 하는 과정)을 **FIT**이라고 한다.
 
 ## Link
-* <https://www.youtube.com/watch?v=dpw0wY13XDk&list=PLl1irxoYh2wyLwJutUZx5Q_QEEDZoXBnz&index=1>
+* [Youtube 봉수골 개발자 이선비](https://www.youtube.com/watch?v=dpw0wY13XDk&list=PLl1irxoYh2wyLwJutUZx5Q_QEEDZoXBnz&index=1)

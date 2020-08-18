@@ -2,34 +2,36 @@
 layout: default
 ---
 
-<article class="px-3 pb-10 mt-10 border rounded markdown-body md:px-10 md:mx-40">
-    <div class="flex justify-between my-5">
-        <a href="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
-           target="_blank">
-            <img
-                src="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}.svg" />
-        </a>
-        <div class="text-xs text-right text-gray-700">
-            작성: {{ page.date | date: "%Y-%m-%d" }} 수정: {{ page.date | date: "%Y-%m-%d" }}
+<div class="pb-10 mt-10 md:mx-40">
+    <article class="px-3 border rounded markdown-body md:px-10">
+        <div class="flex justify-between my-5">
+            <a href="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}"
+               target="_blank">
+                <img
+                    src="http://hits.dwyl.com/{{ site.url | remove_first: 'https://' | remove_first: 'http://' }}{{ page.url }}.svg" />
+            </a>
+            <div class="text-xs text-right text-gray-700">
+                작성: {{ page.date | date: "%Y-%m-%d" }} 수정: {{ page.date | date: "%Y-%m-%d" }}
+            </div>
         </div>
-    </div>
-    <h1>{{ page.title }}</h1>
-    <p class="text-2xl italic font-medium text-gray-600">{{ page.summary }}</p>
-    {{ content }}
-    <div class="flex flex-col text-lg md:flex-row md:justify-between">
+        <h1>{{ page.title }}</h1>
+        <p class="text-2xl italic font-medium text-gray-600">{{ page.summary }}</p>
+        {{ content }}
+    </article>
+    <div class="flex flex-col text-lg">
         {% if page.next.url %}
-        <a class="" href="{{page.next.url}}">
-            <b class=""> &lt; Next [ {{page.next.title}} ]</b>
+        <a class="mt-2" href="{{page.next.url}}">
+            <span class="font-bold">다음글</span>
+            {{page.next.title}}
         </a>
         {% endif %}
-        <br>
         {% if page.previous.url %}
-        <a class="" href="{{page.previous.url}}">
-            <b class="">[ {{page.previous.title}} ] Previous &gt;</b>
+        <a class="my-2" href="{{page.previous.url}}">
+            <span class="font-bold">이전글</span> {{page.previous.title}} 
         </a>
         {% endif %}
     </div>
     {% if page.comments %}
     {% include disqus.html %}
     {% endif %}
-</article>
+</div>
