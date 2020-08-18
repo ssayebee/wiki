@@ -21,10 +21,10 @@
         </button>
     </div>
 
-    <ul class="hidden bar-menu md:hidden">
+    <ul class="menu-bar md:hidden" style="display: none;">
         {% for item in site.data.nav %}
         <a class="" href="{{ item.link }}">
-            <li class="m-3 text-xl font-bold text-gray-400 border-b">
+            <li class="m-3 text-xl font-bold text-gray-400 border-b" >
                 <span class="{% if page.url == item.link %} bg-teal-500 text-white {% endif %}">
                 {{ item.name }}
                 </span>
