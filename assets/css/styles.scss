@@ -1,4 +1,9 @@
 @tailwind base;
 @tailwind components;
 
+.utterances {
+	max-width: 100%;
+	margin: 0px;
+}
+
 @tailwind utilities;

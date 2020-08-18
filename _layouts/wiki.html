@@ -18,20 +18,21 @@ layout: default
         <p class="text-2xl italic font-medium text-gray-600">{{ page.summary }}</p>
         {{ content }}
     </article>
-    <div class="flex flex-col text-lg">
+    <div class="flex flex-col pl-3 md:pl-0">
         {% if page.next.url %}
         <a class="mt-2" href="{{page.next.url}}">
-            <span class="font-bold">다음글</span>
-            {{page.next.title}}
+            <span class="font-bold text-blue-700">다음글</span>
+            <em class="text-blue-600 hover:underline"> {{page.next.title}} </em>
         </a>
         {% endif %}
         {% if page.previous.url %}
         <a class="my-2" href="{{page.previous.url}}">
-            <span class="font-bold">이전글</span> {{page.previous.title}} 
+            <span class="font-bold text-blue-700">이전글</span>
+            <em class="text-blue-600 hover:underline"> {{page.previous.title}} </em>
         </a>
         {% endif %}
     </div>
     {% if page.comments %}
-    {% include disqus.html %}
+        {% include utterances.html %}
     {% endif %}
 </div>
