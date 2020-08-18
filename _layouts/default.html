@@ -2,8 +2,11 @@
 <html>
     <head>
         {% if jekyll.environment == "production" %}
-			{% include analytics.html %}
-		{% endif %}
+            {% include analytics.html %}
+        {% endif %}
+        {% if page.summary %}
+            <meta name="description" content="{{ page.summary }}">
+        {% endif %}
         <meta charset="utf-8">
         <title>{{ page.title }}</title>
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -22,6 +25,6 @@
         </div>
         {% include footer.html %}
         <script id="dsq-count-scr" src="//ssayebee.disqus.com/count.js" async></script>
-        <script src="assets/js/main.js"></script>
+        <script src="/assets/js/main.js"></script>
     </body>
 </html>

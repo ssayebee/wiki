@@ -1,14 +1,15 @@
 ---
-layout: default
-title: Tags
+layout : default
+title  : Tag
+summary: 웹 개발을 하면서 알게 된 내용들을 Tag별로 정리합니다.
 ---
 
-<div class="mx-3 mt-4 xl:mx-40 lg:mx-30">
+<div class="md:mx-40">
     {% assign documents = site.wiki | sort: 'updated' %}
     {% assign tags =  site.wiki | map: 'tags' | uniq | sort %}
-    <h2 class="text-lg font-bold">
+    <h1 class="mt-4 ml-3 text-lg font-bold md:ml-0">
         총 {{ tags.size }}개의 태그
-    </h2>
+    </h1>
     <ul class="p-4 mt-2 mb-4 border">
         {% for tag in tags %}
         <li>
