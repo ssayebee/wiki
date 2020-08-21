@@ -10,19 +10,29 @@ comments: true
 
 ## 1. 개발환경 구축
 
-해당 강의에서는 google의 **Colaborattory**라는 tool을 사용했지만, 보다 친숙한 jupyter notebook을 이용해서 진행하였음.
+해당 강의에서는 google의 **Colaborattory**라는 tool을 사용했지만, 보다 친숙한 **jupyter notebook**을 이용해서 진행하였음.
 
 ```zsh
-$ mkdir notebook         # 프로젝트 디렉토리 생성
-$ cd notebook            # 프로젝트 디렉토리로 이동
+$ mkdir notebook         			# 프로젝트 디렉토리 생성
+$ cd notebook            			# 프로젝트 디렉토리로 이동
 
-$ pipenv --python3.6     # 해당 디렉토리를 pipenv를 이용해 python3.6의 가상환경으로 설정
-$ pipenv shell           # 가상 환경 실행 (virtualenv의 active와 동일)
-$ pipenv install tensorflow  # pandas 설치
-$ pipenv install jupyter # jupyter 설치
-$ pipenv install pandas  # pandas 설치
+$ pipenv --python3.6     			# 해당 디렉토리를 pipenv를 이용해 python3.6의 가상환경으로 설정
+$ pipenv shell           			# 가상 환경 실행 (virtualenv의 active와 동일)
 
-$ jupyter notebook       # jupyter notebook 실행
+# jupyterm pandas, tensorflow 설치
+$ pipenv install jupyter pandas tensorflow
+
+$ jupyter notebook       			# jupyter notebook 실행
+
+$ mkdir csv 									# csv 파일 저장을 위한 디렉토리 생성
+$ cd csv
+
+# 강의에 사용되는 csv 파일 다운로드
+$ csv_names=("lemonade.csv" "iris.csv" "boston.csv")
+$ for name in $csv_names
+	do
+	curl -O https://raw.githubusercontent.com/blackdew/tensorflow1/master/csv/$name
+	done
 ```
 
 ## 2. pandas 사용법
@@ -31,13 +41,13 @@ $ jupyter notebook       # jupyter notebook 실행
 import pandas as pd
 
 # csv 파일 읽어오기
-file_path = '../data/lemonade.csv'
+file_path = '../csv/lemonade.csv'
 lemonade = pd.read_csv(file_path)
 
-file_path = '../data/boston.csv'
+file_path = '../csv/boston.csv'
 boston = pd.read_csv(file_path)
 
-file_path = '../data/iris.csv'
+file_path = '../csv/iris.csv'
 iris = pd.read_csv(file_path)
 
 # data shape 확인
