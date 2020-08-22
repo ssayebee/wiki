@@ -61,7 +61,6 @@
   * [[computer_structure]]
   * [[memory_structure]]
   * [[cpu_structure]]
-  * [[develop_7steps]]
   * [[software_bug]]
   * [[ide_definition]]
   * [[amdahl's_law]]

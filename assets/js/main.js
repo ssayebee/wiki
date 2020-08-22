@@ -34,3 +34,11 @@ function toggleBar() {
         menuBar.style.display = "none";
     }
 }
+
+const groups = document.querySelectorAll(".archive-group");
+function selectedTag(tagName) {
+    for (let i = 0, len = groups.length; i < len; i++) {
+        groups[i].style.display = 'none';
+    }
+    document.querySelector(`#${tagName}`).style.display = 'block'
+}
