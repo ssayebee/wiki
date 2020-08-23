@@ -36,9 +36,24 @@ function toggleBar() {
 }
 
 const groups = document.querySelectorAll(".archive-group");
-function selectedTag(tagName) {
+function showTag(tagName) {
     for (let i = 0, len = groups.length; i < len; i++) {
         groups[i].style.display = 'none';
     }
     document.querySelector(`#${tagName}`).style.display = 'block'
+}
+
+let url = window.location.href;
+let req = /\?tag=([^\s]+)$/.exec(url);
+const s_groups = document.querySelectorAll(".group-selector");
+
+if(Array.isArray(req)) {
+    tagName = req.pop();
+    for (let i = 0, len = s_groups.length; i < len; i++) {
+        s_groups[i].style.backgroundColor = "#e2e8f0";
+        s_groups[i].style.color = "#000";
+    }
+    document.querySelector(`#s_${tagName}`).style.backgroundColor = "#38b2ac";
+    document.querySelector(`#s_${tagName}`).style.color = "#fff";
+    showTag(tagName);
 }

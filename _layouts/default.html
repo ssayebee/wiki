@@ -2,10 +2,10 @@
 <html>
     <head>
         {% if jekyll.environment == "production" %}
-            {% include analytics.html %}
+        {% include analytics.html %}
         {% endif %}
         {% if page.summary %}
-            <meta name="description" content="{{ page.summary }}">
+        <meta name="description" content="{{ page.summary }}">
         {% endif %}
         <meta charset="utf-8">
         <title>{{ page.title }}</title>

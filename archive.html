@@ -21,9 +21,12 @@ summary: 웹 개발을 하면서 알게 된 내용들을 Tag별로 정리합니�
         {% assign tag_size = tag_size | plus: 1 %}
         {% endif %}
         {% endfor %}
-        <li class="p-1 mt-2 mr-2 text-xs font-medium text-black bg-gray-300 border rounded" onclick="selectedTag('{{ tag }}')">
-            <p># {{ tag }}<sup>{{tag_size}}</sup></p>
-        </li>
+        <a href="/archive.html?tag={{ tag }}" onclick="selectedTag('{{ tag }}')">
+            <li class="p-1 mt-2 mr-2 text-xs font-medium text-black bg-gray-300 border rounded group-selector"
+                id="s_{{tag}}">
+                <p># {{ tag }}<sup>{{tag_size}}</sup></p>
+            </li>
+        </a>
         {% endfor %}
     </ul>
 
@@ -35,7 +38,7 @@ summary: 웹 개발을 하면서 알게 된 내용들을 Tag별로 정리합니�
         {% assign tag_size = tag_size | plus: 1 %}
         {% endif %}
         {% endfor %}
-        <li class="archive-group" style="display: none;" id="{{ tag }}">
+        <li class="archive-group" id="{{ tag }}">
             <h2 class="mb-3 text-2xl font-semibold">{{ tag }}({{ tag_size }})</h3>
             <ul>
                 {% for doc in documents %}
@@ -47,4 +50,5 @@ summary: 웹 개발을 하면서 알게 된 내용들을 Tag별로 정리합니�
         </li>
         {% endfor %}
     </ul>
+
 </div>
