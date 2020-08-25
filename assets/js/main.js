@@ -28,11 +28,7 @@ function timeForToday(value) {
 
 const menuBar = document.querySelector(".menu-bar");
 function toggleBar() {
-    if (menuBar.style.display === "none") {
-        menuBar.style.display = "block";
-    } else {
-        menuBar.style.display = "none";
-    }
+  menuBar.classList.toggle("hidden");
 }
 
 const groups = document.querySelectorAll(".archive-group");

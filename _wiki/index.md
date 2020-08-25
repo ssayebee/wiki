@@ -54,6 +54,7 @@
   === LINUX ===
   * [[shell_cmd_sed]]
   * [[special_symbols]]
+  * [[start_tmux]]
 
   === COMPUTER COMMON SENSE ===
   * [[BIOS]]
@@ -79,6 +80,7 @@
   * [[read_vim_help5]]
   * [[read_vim_help6]]
   * [[read_vim_help7]]
+  * [[read_vim_help8]]
 
   === CS ===
   * [[software_flow_control]]
