@@ -3,12 +3,13 @@ layout  : wiki
 title   : Reactive Spring
 summary : Reactive Spring을 사용하는 이유
 date    : 2020-07-22 00:28:15 +0900
-updated : 2020-08-04 16:44:21 +0900
+updated : 2020-08-26 10:30:09 +0900
 tags    : [rx, spring]
 comments: true
 ---
 
 ## Index
+
 1. 왜 반응성이 필요한가?
 2. 리액티브 시스템의 기본 원리(중요)
 3. 리액티브 시스템 설계에 완벽하게 일치하는 비즈니스 사례
@@ -16,6 +17,7 @@ comments: true
 5. 스프링 프레임워크가 리액티브로 전환하는 이유
 
 ## 1. 왜 리액티브인가?
+
 * 시간당 평균 1,000명의 사용자가 방문한다고 가장
   * 톰캣(Tomcat) 웹 서버 + 500개의 스래드 풀로 구성
   * 평균 응답 시간은 250 ms
@@ -114,5 +116,3 @@ Redux : 상태 메시지 관리 머신
 리액티브 프로그래밍 핵심
 * 비동기
 * 메시지
-
-<https://sigmadream.tistory.com/95>

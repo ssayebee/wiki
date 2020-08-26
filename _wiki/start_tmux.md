@@ -3,8 +3,8 @@ layout  : wiki
 title   : Tmux를 사용해 보자
 summary : Tmux를 이용한 터미널 멀티테스킹
 date    : 2020-08-25 06:35:47 +0900
-updated : 2020-08-26 04:47:30 +0900
-tags    : 
+updated : 2020-08-26 10:27:58 +0900
+tags    : [termial, linux]
 comments: true
 ---
 
