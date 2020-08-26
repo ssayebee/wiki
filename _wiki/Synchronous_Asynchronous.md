@@ -1,7 +1,7 @@
 ---
 layout  : wiki
-title   : 동기 vs 비동기
-summary : 
+title   : 동기(Synchronous) vs 비동기(Asynchronous)
+summary : 동기와 비동기의 차이에 대한 정리
 date    : 2020-07-22 00:20:13 +0900
 updated : 2020-08-04 16:19:40 +0900
 tags    : [terms, cs]
@@ -20,7 +20,7 @@ comments: true
   * I/O 작업이 진행되는 동안 유저 프로세스는 결과를 기다렸다가 이벤트(결과)를 직접 처리하는 방식
     - 이 때 유저 프로세스는 blocking 방식 처럼 결과를 기다리거나, non-blocking처럼 커널에 계속 요청하는 방식으로 기다릴 수도 있다.
 
-3. 비동기(Asychronous)
+3. 비동기(Asynchronous)
   * I/O 작업이 진행되는 동안 유저 프로세스를 신경 쓰지 않음, 이벤트 핸들러에 의해 전달된 알림만 처리하는 방식
   * 결국 notify를 커널이 담당하여 주체적으로 진행하며, 유저 프로세스는 수동적인 입장에서 통지가 오면 그 때 I/O 처리를 함.
 

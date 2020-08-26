@@ -1,7 +1,7 @@
 ---
 layout  : wiki
-title   : Blocking vs Non-Blocking
-summary : 
+title   : 블로킹(Blocking) vs 논블로킹(Non-Blocking)
+summary : 블로킹과 논블로킹의 차이에 대한 정리
 date    : 2020-07-22 00:20:10 +0900
 updated : 2020-07-31 18:00:10 +0900
 tags    : [terms, cs]

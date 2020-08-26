@@ -3,7 +3,7 @@ layout  : wiki
 title   : Tmux를 사용해 보자
 summary : Tmux를 이용한 터미널 멀티테스킹
 date    : 2020-08-25 06:35:47 +0900
-updated : 2020-08-26 10:27:58 +0900
+updated : 2020-08-26 19:13:02 +0900
 tags    : [termial, linux]
 comments: true
 ---
@@ -85,6 +85,35 @@ $ tmux new-session -s `session_name`  # `session_name`의 새로운 Session을 �
 $ tmux kill-session -t `session_name` # `session_name`을 삭제한다.
 ```
 
+## 4. Tmux에서 true color 사용하기
+
+### 4.1 문제 상황
+
+
+**tmux**환경에서 neovim `Plug 'sonph/onehalf', {'rtp': 'vim/'}` **theme**이 재대로 동작하지 않는 문제점이 발생했다.
+
+**아래의 명령어로 terminal이 true color를 지원하는지 유무를 확인 할 수있다.**
+
+```zsh
+curl -s https://raw.githubusercontent.com/JohnMorales/dotfiles/master/colors/24-bit-color.sh | bash
+```
+
+### 4.2 문제 해결
+
+아래의 내용을 `~/.tmux.conf`파일에 추가하자
+```conf
+set -g default-terminal "tmux-256color"
+set -ga terminal-overrides ",*256col*:Tc"
+```
+
+```zsh
+source ~/.tmux.conf
+```
+
+정상적으로 출력됨을 확인 할 수 있다.
+
+
 ## Link
 
-[Youtube 광일공방](https://www.youtube.com/watch?v=FdvjywJBQJg&t=1569s)
+* [Youtube 광일공방](https://www.youtube.com/watch?v=FdvjywJBQJg&t=1569s)
+* [Github tmux](https://github.com/tmux/tmux)

@@ -1,7 +1,7 @@
 ---
 layout  : wiki
 title   : Arguments VS Paramemters
-summary : Arguments ? Paramemters ?
+summary : 평소 헷갈렸던 arguments와 Paramemters에 대한 정리
 date    : 2020-08-12 18:40:09 +0900
 updated : 2020-08-15 16:40:40 +0900
 tags    : [terms, clang]
