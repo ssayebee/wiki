@@ -32,9 +32,8 @@
 
   === REACTJS ===
   * [[ReactJS]]
-  
-  === SPRING BOOT ===
-  * [[reactive_spring]]
+
+  === SPRING ===
   
 ----------------------------------------
   
@@ -65,9 +64,10 @@
   * [[software_bug]]
   * [[ide_definition]]
   * [[amdahl's_law]]
-  * [[reactive_programming]]
   * [[Blocking_Non-Blocking]]
   * [[Synchronous_Asynchronous]]
+  * [[reactive_programming_1]]
+  * [[reactive_programming_2]]
 
   === VIM ===
   * [[vim_replace]]
