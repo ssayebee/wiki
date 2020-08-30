@@ -20,7 +20,7 @@ layout: default
             {{ content }}
         </article>
         <div id="markdown-toc" class="hidden lg:block">
-            {% toc %}
+            {{ content | toc_only }}
         </div>
     </div>
     <div class="flex flex-col pl-3 md:pl-0">
