@@ -3,20 +3,12 @@ layout  : wiki
 title   : Reactvie Programming(2)
 summary : Reactive Programming을 사용하는 이유
 date    : 2020-07-22 00:28:15 +0900
-updated : 2020-08-30 23:19:19 +0900
+updated : 2020-08-31 01:55:13 +0900
 tags    : [rx]
 comments: true
 ---
 
 해당 포스팅은 [한상곤](https://www.sangkon.com/) 개발자님의 발표를 정리한 내용입니다.
-
-## INDEX
-
-1. 왜 반응성이 필요한가?
-2. 리액티브 시스템의 기본 원리(중요)
-3. 리액티브 시스템 설계에 완벽하게 일치하는 비즈니스 사례
-4. 리액티브 시스템에 좀 더 적합한 프로그래밍 기술
-5. 스프링 프레임워크가 리액티브로 전환하는 이유
 
 ## 1. 왜 리액티브인가?
 

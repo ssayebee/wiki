@@ -35,16 +35,15 @@ tags    : [js, fp]
 
 ## 2. 문제 해결
 ```bash
-$ ls _wiki | grep *.md | grep -v index | while read line
+$ ls _wiki | grep -v index | while read line
 do
-    sed -i '10,11d' "$line"
+    sed -i '10,11d' _wiki/"$line"
 done
 ```
 
 1. `_wiki` 디렉토리의 파일 목록을 출력
-2. 해당 목록중 `*.md`로 나오는 것을 파이프
-3. `index`가 매치되지 않는 파일을 파이프
-4. 라인을 읽어서 `sed -i '10,11d' {fileName}` 명령어 실행
+2. `index` 문자를 제외한 라인 파이프
+3. 라인을 읽어서 `sed -i '10,11d' _/wiki{fileName}` 명령어 실행
 
 ## 3. 새로 알게된 내용
 
@@ -71,7 +70,7 @@ tags    : [js, fp]
 간단하게 7번째 라인에 comments: true를 추가하면 된다.
 
 ```bash
-$ ls _wiki | grep *.md | grep -v index | while read line
+$ ls _wiki | grep -v index | while read line
 do
     sed -i '7acomments: true' "$line"
 done
