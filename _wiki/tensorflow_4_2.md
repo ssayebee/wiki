@@ -6,6 +6,7 @@ date    : 2020-08-30 16:33:45 +0900
 updated : 2020-08-30 21:13:46 +0900
 tags    : [ml, tensorflow, python, yahak, pandas]
 comments: true
+toc     : true
 ---
 
 ## 1. 보스턴 집값 예측에 히든레이어를 추가하기

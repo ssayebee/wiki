@@ -6,6 +6,7 @@ date    : 2020-08-25 06:35:47 +0900
 updated : 2020-08-26 19:13:02 +0900
 tags    : [terminal, linux]
 comments: true
+toc     : true
 ---
 
 ## 1. 설치하기

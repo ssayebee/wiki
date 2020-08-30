@@ -6,6 +6,7 @@ date    : 2020-08-10 00:38:28 +0900
 updated : 2020-08-12 16:13:59 +0900
 tags    : [js, es6]
 comments: true
+toc     : true
 ---
 
 ## 1. 내장 타입

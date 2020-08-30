@@ -6,6 +6,7 @@ date    : 2020-07-21 15:52:15 +0900
 updated : 2020-08-04 16:45:08 +0900
 tags    : [terms]
 comments: true
+toc     : true
 ---
 
 윈도우 컴퓨터에서 드라이브는 C 부터 시작한다.

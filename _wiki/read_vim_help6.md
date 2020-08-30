@@ -6,6 +6,7 @@ date    : 2020-08-07 09:20:51 +0900
 updated : 2020-08-10 00:19:36 +0900
 tags    : [vim]
 comments: true
+toc     : true
 ---
 
 ## 여러 움직임

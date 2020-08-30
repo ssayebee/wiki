@@ -6,6 +6,7 @@ date    : 2020-08-19 15:16:52 +0900
 updated : 2020-08-19 17:31:54 +0900
 tags    : [ml, tensorflow, python, yahak, pandas]
 comments: true
+toc     : true
 ---
 
 ## 1. 개발환경 구축

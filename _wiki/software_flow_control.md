@@ -6,6 +6,7 @@ date    : 2020-08-08 01:55:33 +0900
 updated : 2020-08-11 19:44:34 +0900
 tags    : [terminal, cs]
 comments: true
+toc     : true
 ---
 
 들어가기 앞서서, 

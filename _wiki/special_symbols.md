@@ -6,6 +6,7 @@ date    : 2020-08-07 00:05:53 +0900
 updated : 2020-08-07 02:19:33 +0900
 tags    : [terms]
 comments: true
+toc     : true
 ---
 
 ## 정리표

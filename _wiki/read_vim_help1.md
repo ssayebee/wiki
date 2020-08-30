@@ -6,6 +6,7 @@ date    : 2020-08-01 03:06:06 +0900
 updated : 2020-08-03 00:45:32 +0900
 tags    : [vim]
 comments: true
+toc     : true
 ---
 
 vim에서 :help를 모두 읽어 보기 위해서 시작한다.

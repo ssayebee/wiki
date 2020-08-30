@@ -6,6 +6,7 @@ date    : 2020-07-21 16:50:54 +0900
 updated : 2020-08-04 16:46:07 +0900
 tags    : [cs]
 comments: true
+toc     : true
 ---
 
 CPU와 주기억장치(RAM) 장치 사이에는 캐쉬메모리가 존재하고,

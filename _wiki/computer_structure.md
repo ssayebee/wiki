@@ -6,6 +6,7 @@ date    : 2020-07-21 16:43:09 +0900
 updated : 2020-08-04 16:45:46 +0900
 tags    : [cs]
 comments: true
+toc     : true
 ---
 
 폰노이만이 제시한 Stored-Program 방식을 채택하여 사용중이다.

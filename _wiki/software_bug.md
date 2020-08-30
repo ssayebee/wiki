@@ -6,6 +6,7 @@ date    : 2020-07-21 21:15:40 +0900
 updated : 2020-08-04 16:47:38 +0900
 tags    : [terms]
 comments: true
+toc     : true
 ---
 
 프로그래밍에서 오류는 Bug라고 불리고, 해당 오류를 해결하는 것을 Debugging이라고 한다.

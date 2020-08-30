@@ -6,6 +6,7 @@ date    : 2020-08-24 15:13:23 +0900
 updated : 2020-08-24 18:47:24 +0900
 tags    : [ml, tensorflow, python, yahak, pandas]
 comments: true
+toc     : true
 ---
 
 ## 1. 이전 수업내용을 토대로 보스턴 집값을 예측해보자

@@ -6,6 +6,7 @@ date    : 2020-07-21 17:10:10 +0900
 updated : 2020-08-04 16:46:36 +0900
 tags    : [cs]
 comments: true
+toc     : true
 ---
 
 컴퓨터는 모든정보를 숫자(이진수)로 변경해 처리한다. -> (기계어: Machine Code)
