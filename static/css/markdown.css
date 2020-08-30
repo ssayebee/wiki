@@ -135,8 +135,20 @@ body {
   background: none;
 }
 
+#markdown-toc::before {
+    content: "Contents";
+    font-weight: bold;
+}
+
 #markdown-toc {
+  font-size: 0.875em;
+  border: 1px solid gray;
+  padding: 8px;
   margin-left: 20px;
   position: sticky;
-  top: 0;
+  top: 10%;
+}
+
+.toc-h3 {
+  margin-left: 1rem;
 }
