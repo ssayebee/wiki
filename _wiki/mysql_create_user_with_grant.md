@@ -6,7 +6,6 @@ date    : 2020-08-12 17:52:59 +0900
 updated : 2020-08-12 17:57:33 +0900
 tags    : [db, mysql]
 comments: true
-toc     : true
 ---
 
 ## 1. 접속

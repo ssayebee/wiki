@@ -6,7 +6,6 @@ date    : 2020-08-06 15:50:05 +0900
 updated : 2020-08-06 19:07:35 +0900
 tags    : [vim]
 comments: true
-toc     : true
 ---
 
 # 마크와 움직임

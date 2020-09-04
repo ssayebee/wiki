@@ -6,7 +6,6 @@ date    : 2020-08-26 20:28:22 +0900
 updated : 2020-08-30 17:29:24 +0900
 tags    : [ml, tensorflow, python, yahak, pandas]
 comments: true
-toc     : true
 ---
 
 ## 1. 코드로 옮기기

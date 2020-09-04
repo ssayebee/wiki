@@ -6,7 +6,6 @@ date    : 2020-07-21 22:27:53 +0900
 updated : 2020-08-04 16:39:55 +0900
 tags    : [js, es6]
 comments: true
-toc     : true
 ---
 
 - ES6에 도입

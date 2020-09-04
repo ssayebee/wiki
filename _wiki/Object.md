@@ -6,7 +6,6 @@ date    : 2020-07-21 22:29:50 +0900
 updated : 2020-08-04 16:40:12 +0900
 tags    : [js, es6]
 comments: true
-toc     : true
 ---
 
 ## 4.1 객체 선언하기

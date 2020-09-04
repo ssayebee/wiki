@@ -6,7 +6,6 @@ date    : 2020-08-05 02:21:27 +0900
 updated : 2020-08-06 19:35:35 +0900
 tags    : [command, sed, zsh]
 comments: true
-toc     : true
 ---
 
 ## 1. 문제 상황

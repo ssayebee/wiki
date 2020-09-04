@@ -6,7 +6,6 @@ date    : 2020-07-21 22:26:43 +0900
 updated : 2020-08-04 16:39:33 +0900
 tags    : [js, es6]
 comments: true
-toc     : true
 ---
 
 - ES6에 도입된 문자열을 표기하는 방법

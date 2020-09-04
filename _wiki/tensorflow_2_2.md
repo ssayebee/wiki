@@ -6,7 +6,6 @@ date    : 2020-08-19 17:27:12 +0900
 updated : 2020-08-22 04:31:05 +0900
 tags    : [ml, tensorflow, python, yahak, pandas]
 comments: true
-toc     : true
 ---
 
 ## 1. 레몬에이드 판매를 예측해보자.

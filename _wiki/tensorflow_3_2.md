@@ -6,7 +6,6 @@ date    : 2020-08-24 17:34:04 +0900
 updated : 2020-08-25 18:24:29 +0900
 tags    : [ml, tensorflow, python, yahak, pandas]
 comments: true
-toc     : true
 ---
 
 ## 1. 들어가면서...

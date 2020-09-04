@@ -6,7 +6,6 @@ date    : 2020-08-10 21:57:29 +0900
 updated : 2020-08-12 15:25:11 +0900
 tags    : [terms, clang]
 comments: true
-toc     : true
 ---
 
 ## Expressions vs Statements

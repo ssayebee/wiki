@@ -6,7 +6,6 @@ date    : 2020-08-12 18:40:09 +0900
 updated : 2020-08-15 16:40:40 +0900
 tags    : [terms, clang]
 comments: true
-toc     : true
 ---
 
 ### Arguments (인수)

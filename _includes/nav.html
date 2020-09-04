@@ -1,35 +1,38 @@
 <nav class="flex flex-col w-full border-b">
-    <div class="flex items-center justify-between px-3 border-b md:px-40">
-        <a href="/" class="my-auto text-3xl font-extrabold text-teal-500 md:pl-0">
-            Wiki
-        </a>
+  <div class="flex items-center justify-between px-3 border-b md:px-40">
+    <a href="/" class="my-auto text-3xl font-extrabold text-teal-500 md:pl-0">
+      Wiki
+    </a>
 
-        <div class="flex hidden md:block">
-            <div class="flex">
-                {% for item in site.data.nav %}
-                <a href="{{ item.link }}" 
-                   class="text-xl p-4 font-extrabold {% if page.url == item.link %} bg-teal-500 text-white {% endif %}
-                   hover:bg-gray-500 hover:shadow-outline">
-                    {{ item.name }}
-                </a>
-                {% endfor %}
-            </div>
-        </div>
-
-        <button onclick="toggleBar()" class="text-2xl focus:outline-none md:hidden">
-            <i class="py-4 font-extrabold text-gray-500 fa fa-bars"></i>
-        </button>
-    </div>
-
-    <ul class="hidden menu-bar md:hidden">
+    <div class="flex hidden md:block">
+      <div class="flex">
         {% for item in site.data.nav %}
-        <a class="" href="{{ item.link }}">
-            <li class="m-3 text-xl font-bold text-gray-400 border-b" >
-                <span class="{% if page.url == item.link %} bg-teal-500 text-white {% endif %}">
-                {{ item.name }}
-                </span>
-            </li>
+        <a
+          href="{{ item.link }}"
+          class="text-xl p-4 font-extrabold {% if page.url == item.link %} bg-teal-500 text-white {% endif %} hover:bg-gray-500 hover:shadow-outline"
+        >
+          {{ item.name }}
         </a>
         {% endfor %}
-    </ul>
+      </div>
+    </div>
+
+    <button onclick="toggleBar()" class="text-2xl focus:outline-none md:hidden">
+      <i class="py-4 font-extrabold text-gray-500 fa fa-bars"></i>
+    </button>
+  </div>
+
+  <ul class="hidden menu-bar md:hidden">
+    {% for item in site.data.nav %}
+    <a class="" href="{{ item.link }}">
+      <li class="m-3 text-xl font-bold text-gray-400 border-b">
+        <span
+          class="{% if page.url == item.link %} bg-teal-500 text-white {% endif %}"
+        >
+          {{ item.name }}
+        </span>
+      </li>
+    </a>
+    {% endfor %}
+  </ul>
 </nav>

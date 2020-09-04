@@ -6,7 +6,6 @@ date    : 2020-08-16 15:44:01 +0900
 updated : 2020-08-16 17:15:16 +0900
 tags    : [ml, tensorflow, python, yahak]
 comments: true
-toc     : true
 ---
 
 

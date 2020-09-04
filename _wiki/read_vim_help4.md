@@ -6,7 +6,6 @@ date    : 2020-08-04 15:44:51 +0900
 updated : 2020-08-06 19:07:35 +0900
 tags    : [vim]
 comments: true
-toc     : true
 ---
 
 ## Pattern 검색

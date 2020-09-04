@@ -6,7 +6,6 @@ date    : 2020-07-22 00:17:54 +0900
 updated : 2020-08-30 23:17:28 +0900
 tags    : [rx]
 comments: true
-toc     : true
 ---
 
 해당 포스팅은 [한상곤](https://www.sangkon.com/) 개발자님의 발표를 정리한 내용입니다.

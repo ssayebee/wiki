@@ -1,54 +1,46 @@
 ---
-layout : default
-title  : Tag
+layout: default
+title: Tag
 summary: 웹 개발을 하면서 알게 된 내용들을 Tag별로 정리합니다.
 ---
 
 <div class="md:mx-40">
-    {% assign documents = site.wiki | sort: 'updated' | reverse %}
-    {% assign tags =  site.wiki | map: 'tags' | uniq | sort %}
-    {% assign all_tags = site.wiki | map: 'tags' | join: ',' | split: ',' %}
+  {% assign documents = site.wiki | sort: 'updated' | reverse %} {% assign tags
+  = site.wiki | map: 'tags' | uniq | sort %} {% assign all_tags = site.wiki |
+  map: 'tags' | join: ',' | split: ',' %}
 
-    <h1 class="mt-4 ml-2 text-lg font-bold md:ml-0">
-        총 {{ tags.size }}개의 태그
-    </h1>
+  <h1 class="mt-4 ml-2 text-lg font-bold md:ml-0">
+    총 {{ tags.size }}개의 태그
+  </h1>
 
-    <ul class="flex flex-wrap mx-2 md:mx-0">
-        {% for tag in tags %}
-        {% assign tag_size = 0 %}
-        {% for t in all_tags %}
-        {% if t == tag %}
-        {% assign tag_size = tag_size | plus: 1 %}
-        {% endif %}
-        {% endfor %}
-        <a href="/archive.html?tag={{ tag }}" onclick="selectedTag('{{ tag }}')">
-            <li class="p-1 mt-2 mr-2 text-xs font-medium text-black bg-gray-300 border rounded group-selector"
-                id="s_{{tag}}">
-                <p># {{ tag }}<sup>{{tag_size}}</sup></p>
-            </li>
-        </a>
-        {% endfor %}
-    </ul>
+  <ul class="flex flex-wrap mx-2 md:mx-0">
+    {% for tag in tags %} {% assign tag_size = 0 %} {% for t in all_tags %} {%
+    if t == tag %} {% assign tag_size = tag_size | plus: 1 %} {% endif %} {%
+    endfor %}
+    <a href="/archive.html?tag={{ tag }}" onclick="selectedTag('{{ tag }}')">
+      <li
+        class="p-1 mt-2 mr-2 text-xs font-medium text-black bg-gray-300 border rounded group-selector"
+        id="s_{{ tag }}"
+      >
+        <p>
+          # {{ tag }}<sup>{{ tag_size }}</sup>
+        </p>
+      </li>
+    </a>
+    {% endfor %}
+  </ul>
 
-    <ul class="p-2 mt-2 mb-4 border md:p-4">
-        {% for tag in tags %}
-        {% assign tag_size = 0 %}
-        {% for t in all_tags %}
-        {% if t == tag %}
-        {% assign tag_size = tag_size | plus: 1 %}
-        {% endif %}
-        {% endfor %}
-        <li class="archive-group" id="{{ tag }}">
-            <h2 class="mb-3 text-2xl font-semibold">{{ tag }}({{ tag_size }})</h3>
-            <ul>
-                {% for doc in documents %}
-                {% if doc.tags contains tag %}
-                {% include wiki_list.html doc=doc %}
-                {% endif %}
-                {% endfor %}
-            </ul>
-        </li>
-        {% endfor %}
-    </ul>
-
+  <ul class="p-2 mt-2 mb-4 border md:p-4">
+    {% for tag in tags %} {% assign tag_size = 0 %} {% for t in all_tags %} {%
+    if t == tag %} {% assign tag_size = tag_size | plus: 1 %} {% endif %} {%
+    endfor %}
+    <li class="archive-group" id="{{ tag }}">
+      <h2 class="mb-3 text-2xl font-semibold">{{ tag }}({{ tag_size }})</h2>
+      <ul>
+        {% for doc in documents %} {% if doc.tags contains tag %} {% include
+        wiki_list.html doc=doc %} {% endif %} {% endfor %}
+      </ul>
+    </li>
+    {% endfor %}
+  </ul>
 </div>

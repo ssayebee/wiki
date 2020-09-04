@@ -6,7 +6,6 @@ date    : 2020-07-28 17:27:01 +0900
 updated : 2020-08-04 16:42:09 +0900
 tags    : [clang]
 comments: true
-toc     : true
 ---
 
 c언의 자료형은 시스템 마다 상이 할 수도 있다.

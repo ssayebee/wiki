@@ -6,7 +6,6 @@ date    : 2020-07-31 15:45:20 +0900
 updated : 2020-07-31 18:32:53 +0900
 tags    : [clang]
 comments: true
-toc     : true
 ---
 
 ## 형식 지정자

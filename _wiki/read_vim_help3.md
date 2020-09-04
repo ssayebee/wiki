@@ -6,7 +6,6 @@ date    : 2020-08-03 00:56:21 +0900
 updated : 2020-08-04 16:50:12 +0900
 tags    : [vim]
 comments: true
-toc     : true
 ---
 
 ## 위 아래 움직임

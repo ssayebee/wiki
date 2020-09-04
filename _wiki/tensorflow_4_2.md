@@ -6,7 +6,6 @@ date    : 2020-08-30 16:33:45 +0900
 updated : 2020-08-30 21:13:46 +0900
 tags    : [ml, tensorflow, python, yahak, pandas]
 comments: true
-toc     : true
 ---
 
 ## 1. 보스턴 집값 예측에 히든레이어를 추가하기
@@ -28,7 +27,8 @@ import pandas as pd
 path = "https://raw.githubusercontent.com/blackdew/tensorflow1/master/csv/boston.csv"
 boston = pd.read_csv(path)
 
-dependent = boston[['crim', 'zn', 'indus', 'chas', 'nox', 'rm', 'age', 'dis', 'rad', 'tax', 'ptratio', 'b', 'lstat']]
+dependent = boston[['crim', 'zn', 'indus', 'chas', 'nox', 'rm', 'age', 'dis',
+                    'rad', 'tax', 'ptratio', 'b', 'lstat']]
 independent = boston[['medv']]
 
 X = tf.keras.layers.Input(shape=[13])

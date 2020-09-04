@@ -6,7 +6,6 @@ date    : 2020-07-21 21:37:48 +0900
 updated : 2020-08-04 16:47:52 +0900
 tags    : [terms]
 comments: true
-toc     : true
 ---
 
 IDE(Integrated Development Environment) 통합 개발 환경의 약어이다.

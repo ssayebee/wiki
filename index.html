@@ -1,18 +1,16 @@
 ---
-layout : default
-title  : Home
+layout: default
+title: Home
 summary: 웹 개발자가 되기 위한 발자국
 ---
 
 <div class="mx-2 md:mx-40">
-    <h1 class="mt-4 text-lg font-bold">최근 수정된 문서 (10)</h1>
-    <ul class="my-2">
-        {% assign documents = site.wiki | sort: 'updated' | reverse %}
-        {% for doc in documents limit: 10 %}
-        {% include wiki_list.html doc=doc %}
-        {% endfor %}
-    </ul>
-    <div class="text-lg font-bold text-teal-500">
-        <a href="/post.html">전체 문서 리스트 ({{ site.wiki | size }} 항목)</a>
-    </div>
+  <h1 class="mt-4 text-lg font-bold">최근 수정된 문서 (10)</h1>
+  <ul class="my-2">
+    {% assign documents = site.wiki | sort: 'updated' | reverse %} {% for doc in
+    documents limit: 10 %} {% include wiki_list.html doc=doc %} {% endfor %}
+  </ul>
+  <div class="text-lg font-bold text-teal-500">
+    <a href="/post.html">전체 문서 리스트 ({{ site.wiki | size }} 항목)</a>
+  </div>
 </div>

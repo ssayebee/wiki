@@ -6,7 +6,6 @@ date    : 2020-08-07 01:46:32 +0900
 updated : 2020-08-07 02:24:03 +0900
 tags    : [vim, regex]
 comments: true
-toc     : true
 ---
 
 ## 1. 문제 상황
