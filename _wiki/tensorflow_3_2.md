@@ -3,7 +3,7 @@ layout  : wiki
 title   : 코딩야학 Tensorflow 3일차(2)
 summary : 아이리스 품종예측을 위한 준비, 원핫인코딩
 date    : 2020-08-24 17:34:04 +0900
-updated : 2020-08-25 18:24:29 +0900
+updated : 2020-08-24 23:33:59 +0900
 tags    : [ml, tensorflow, python, yahak, pandas]
 comments: true
 ---
