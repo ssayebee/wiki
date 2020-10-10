@@ -25,6 +25,10 @@
   * [[c_arguments_vs_parameters]]
   
   === JAVA ===
+  
+  === SCALA ===
+  * [[hello_scala]]
+  * [[scala_programming]]
 
 ----------------------------------------
   
