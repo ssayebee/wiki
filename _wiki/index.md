@@ -94,6 +94,7 @@
 
   === DB ===
   * [[mysql_create_user_with_grant]]
+  * [[surrogate_vs_natural_key]]
 
   === ML ===
   * [[tensorflow_1]]
