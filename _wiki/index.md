@@ -25,6 +25,7 @@
   * [[c_arguments_vs_parameters]]
   
   === JAVA ===
+  * [[java_live_study_1]]
   
   === SCALA ===
   * [[hello_scala]]
