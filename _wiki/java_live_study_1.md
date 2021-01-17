@@ -126,5 +126,5 @@ JDK 14버전으로 컴파일한 class 파일을 JDK8로 실행 할 수 있을까
 컴파일시 `-source`, `-target` 옵션을 이용한다.
 
 
-## Link
+## Reference
 - <https://github.com/whiteship/live-study/issues/1>

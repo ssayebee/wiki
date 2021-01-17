@@ -26,6 +26,7 @@
   
   === JAVA ===
   * [[java_live_study_1]]
+  * [[java_live_study_2]]
   
   === SCALA ===
   * [[hello_scala]]
