@@ -5,19 +5,7 @@ layout: default
 <div class="pb-10 md:mt-10 md:mx-40">
   <div class="lg:flex lg:items-start">
     <article class="px-3 border rounded markdown-body md:px-10">
-      <div class="flex justify-between my-5">
-        <a
-          href="https://hits.dwyl.com/{{
-            site.url | remove_first: 'https://' | remove_first: 'https://'
-          }}{{ page.url }}"
-          target="_blank"
-        >
-          <img
-            src="https://hits.dwyl.com/{{
-              site.url | remove_first: 'https://' | remove_first: 'https://'
-            }}{{ page.url }}.svg"
-          />
-        </a>
+      <div class="flex justify-end my-5">
         <div class="text-xs text-right text-gray-700">
           작성: {{ page.date | date: "%Y-%m-%d" }} 수정:
           {{ page.date | date: "%Y-%m-%d" }}
